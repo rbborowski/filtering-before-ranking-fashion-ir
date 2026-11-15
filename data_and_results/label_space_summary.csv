@@ -1,0 +1,6 @@
+field,distinct_values_full,distinct_values_sample,values_below_min_count_sample,articles_in_rare_types_sample,uninformative_values_sample,vocab_size_sample,top5_coverage_full
+product_type_name,131,101,26,52,Unknown (13 articles),74,0.408
+colour_group_name,50,49,5,11,Mapped to 13 families + Unmapped (135 articles),13,0.519
+index_group_name,5,5,0,0,Disabled in filter policy (Ladieswear/Divided/Sport overlap),5,1.0
+garment_group_name,21,21,0,0,Not used as hard filter,0,0.581
+section_name,56,56,1,2,Not used as hard filter,0,0.263

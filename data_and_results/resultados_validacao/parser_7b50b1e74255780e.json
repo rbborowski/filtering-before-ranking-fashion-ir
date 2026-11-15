@@ -1,0 +1,3759 @@
+{
+  "5ae2cdbf09bbda47f87e5f1bae6918284b5e7ddbb1616055f4720dc8bd6adf76": {
+    "query": "washed skinny jeans high waist",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed skinny jeans high waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.6872001799993086,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"colour_family\": \"washed\", \"index_group_name\": \"Men'swear\", \"size\": \"high waist\"}, \"soft_intent\": \"washed skinny jeans high waist\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "cd0d4138954bfb2a504018b24ac146b7bc79efa7e08f1836d3a6d459963a19d4": {
+    "query": "derby shoes imitation leather lined",
+    "filters": {},
+    "soft_intent": "derby shoes imitation leather lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Shoes",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.6964031539991993,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shoes\"}, \"evidence\": {\"product_type_name\": \"shoes\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"derby shoes imitation leather lined\"}",
+    "evidence": {}
+  },
+  "a9f039f5eac5ee2c4c30a00cde57ae3da1606835ebfcdf8ea9c02a9569597b15": {
+    "query": "cotton blend sleeveless top leggings hairband",
+    "filters": {},
+    "soft_intent": "cotton blend sleeveless top leggings hairband",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Leggings",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.007142771999497,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Leggings\"}, \"evidence\": {\"product_type_name\": \"leggings\", \"index_group_name\": \"other accessories\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"cotton blend sleeveless top leggings hairband\"}",
+    "evidence": {}
+  },
+  "d9a6fe0162e83635e5188d079c2e8fc42c9e211ffc60ed107fc5d7868f7d3c13": {
+    "query": "V-neck Tencel blouse with ties",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "v-neck tencel blouse with ties",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0759593419998055,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"tencel\", \"index_group_name\": \"women's\"}, \"soft_intent\": \"v-neck tencel blouse with ties\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "72f553b5d2e9b944213e997e99704209425af00c0af08ed62aa9ca7f227d72c6": {
+    "query": "linen jacket with pockets 3/4 sleeves lined",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "linen jacket with pockets 3/4 sleeves lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.803179511000053,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"linen\", \"size\": \"3/4 sleeves\", \"lining\": \"lined\"}, \"soft_intent\": \"linen jacket with pockets 3/4 sleeves lined\"}",
+    "evidence": {
+      "product_type_name": "linen"
+    }
+  },
+  "f27b0f279f78049e689a187cdddabd43e08639c018607bb6c1f3af23ed3f623b": {
+    "query": "UV protective cap with flap",
+    "filters": {},
+    "soft_intent": "UV protective cap with flap",
+    "dropped": [
+      [
+        "index_group_name",
+        "Cap/peaked",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Cap",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.577830408000409,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Cap/peaked\", \"product_type_name\": \"Cap\"}, \"evidence\": {\"product_type_name\": \"cap\", \"index_group_name\": \"peaked\"}, \"soft_intent\": \"UV protective cap with flap\"}",
+    "evidence": {}
+  },
+  "62f8f3a18616036a441666b750b6108812ddb0b0db1227eee76be975274ca44b": {
+    "query": "imitation leather pool shoes rhinestones",
+    "filters": {},
+    "soft_intent": "imitation leather pool shoes with rhinestones",
+    "dropped": [
+      [
+        "product_type_name",
+        "Pool shoes",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.102026659999865,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Pool shoes\"}, \"evidence\": {\"product_type_name\": \"pool shoes\", \"colour_family\": \"imitation leather\", \"index_group_name\": \"other accessory\"}, \"soft_intent\": \"imitation leather pool shoes with rhinestones\"}",
+    "evidence": {}
+  },
+  "45a47625e0a30bb7e6126446eaad21baa0d11f1674890690f52a6c0cb8e31184": {
+    "query": "hard-washed slub cotton t-shirt",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "hard-washed slub cotton t-shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6494490879995283,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"slub cotton\"}, \"soft_intent\": \"hard-washed slub cotton t-shirt\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "47a8171bf8ddaa535ac272204807284f902920c3e429ad4ef79ac223adc854fa": {
+    "query": "modal t-shirt short sleeve",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "modal t-shirt short sleeve",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7337881079993167,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"modal t-shirt short sleeve\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "01bf7c8c4919c2768fc7f80c305246ceeb32bb5632330a120c1e089e5a2cf267": {
+    "query": "V-neck gathered waist dress with bow",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "V-neck gathered waist dress with bow",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.290927066000222,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"v-neck gathered waist dress with bow\"}, \"soft_intent\": \"V-neck gathered waist dress with bow\"}",
+    "evidence": {
+      "product_type_name": "v-neck gathered waist dress with bow"
+    }
+  },
+  "bfd5cf877378781a31f496595ec1cf71cdf6bf556650401d8e90b67c99f93b32": {
+    "query": "stretch cotton twill playsuit shorts",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "stretch cotton twill kids under wear",
+    "dropped": [
+      [
+        "index_group_name",
+        "Kids Underwear top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2827656540002863,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Kids Underwear top\", \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"index_group_name\": \"kids underwear top\", \"colour_family\": \"stretch cotton twill\"}, \"soft_intent\": \"stretch cotton twill kids under wear\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "88f084352bc4e6b2ae1e93c0c1c1aa4207ff1958efcc98f516b1db2b83602e19": {
+    "query": "sweatshirt hoodie long sleeve soft brushed",
+    "filters": {
+      "product_type_name": "Hoodie"
+    },
+    "soft_intent": "sweatshirt hoodie long sleeve soft brushed",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.885596868999528,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Hoodie\"}, \"evidence\": {\"product_type_name\": \"hoodie\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"sweatshirt hoodie long sleeve soft brushed\"}",
+    "evidence": {
+      "product_type_name": "hoodie"
+    }
+  },
+  "70f037bd3bec8b0c3216fa31343c91d6ac110cc2073f4e7359833b8aca7c744d": {
+    "query": "lace thongs low waist lined",
+    "filters": {},
+    "soft_intent": "lace thongs low waist lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.796737927000322,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"lace thongs low waist lined\"}",
+    "evidence": {}
+  },
+  "7a2c29a71d68b1929799da441d11a590d670033d8116fdfce689fc6351b0b054": {
+    "query": "washed skinny jeans worn details",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "worn details on skinny jeans",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.550235857000189,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"colour_family\": \"washed\"}, \"soft_intent\": \"worn details on skinny jeans\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "2a322bb4bf8d37b5d9b868f2eb1494c638033356a02d8e7221bdcd07b99cc39a": {
+    "query": "cotton jersey top puff sleeves",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "cotton jersey top with puff sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.2769629320000604,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"cotton\", \"index_group_name\": \"divided\", \"puff_sleeves\": true}, \"soft_intent\": \"cotton jersey top with puff sleeves\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "a2fd509a869dd661baa297d41a6a37d17696b32ac2026737ecced1b7879a3d5e": {
+    "query": "soft long-sleeved cotton top",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "soft long-sleeved cotton top",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6869695750001483,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"soft long-sleeved cotton top\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "1d7d88ffcabe4b7558f0370985d523eec3b3321ebb0a79d917c9860c08f6a3a8": {
+    "query": "fast drying sports tights with elastic hems",
+    "filters": {},
+    "soft_intent": "fast drying sports tights with elastic hems",
+    "dropped": [
+      [
+        "product_type_name",
+        "Tights",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8652758120006183,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Tights\"}, \"evidence\": {\"product_type_name\": \"tights\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"fast drying sports tights with elastic hems\"}",
+    "evidence": {}
+  },
+  "2dfcd5d30afa06a5ceb343871de7e810efc26d7c9c83d359deeb33a9d36798f9": {
+    "query": "Sleeveless A-line dress with pockets",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "Sleeveless A-line dress with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 4.041558498000086,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"A-line dress\", \"product_type_name\": \"sleeveless dress\", \"product_type_name\": \"pockets\"}, \"soft_intent\": \"Sleeveless A-line dress with pockets\"}",
+    "evidence": {
+      "product_type_name": "pockets"
+    }
+  },
+  "dcc338a4c6c54035faa0634804d84ab28398ed28334bc95bdbfdcb84fd8b8846": {
+    "query": "wrapover blouse check pattern viscose V-neck short sleeves elastic waist",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "wrapover blouse with check pattern viscose V-neck short sleeves elastic waist",
+    "dropped": [
+      [
+        "index_group_name",
+        "Garment Set",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 4.72403271299936,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Garment Set\", \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"check pattern\", \"index_group_name\": \"garment set\", \"style\": \"wrapover\", \"neckline\": \"v-neck\", \"sleeve_length\": \"short sleeves\", \"waist\": \"elastic waist\"}, \"soft_intent\": \"wrapover blouse with check pattern viscose V-neck short sleeves elastic waist\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "d3fbd6635c4102054945e2de672397b2dee92ad82fee31be8631e78b406093bb": {
+    "query": "swim shorts with pockets and drawstring",
+    "filters": {},
+    "soft_intent": "swim shorts with pockets and drawstring",
+    "dropped": [
+      [
+        "product_type_name",
+        "Swimwear bottom",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.974411219999638,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Swimwear bottom\"}, \"evidence\": {\"product_type_name\": \"swimwear bottom\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"swim shorts with pockets and drawstring\"}",
+    "evidence": {}
+  },
+  "7e47c31892b8e4121d675799420fa1bb267fecce784900b85b832feff5d955bc": {
+    "query": "thermal fleece jacket with collar zip",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "thermal fleece jacket with collar zip",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.855880151000747,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"thermal fleece jacket with collar zip\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "dac38b2588583bedb723f3ad01a67bb0acc039e2538ef0d8b3148b3f6d945c79": {
+    "query": "cable knit polo sweater fleece lined",
+    "filters": {},
+    "soft_intent": "cable knit polo sweater fleece lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Polo shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.061487753999245,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Polo shirt\"}, \"evidence\": {\"product_type_name\": \"polo shirt\", \"colour_family\": \"fleece\", \"index_group_name\": \"menswear\"}, \"soft_intent\": \"cable knit polo sweater fleece lined\"}",
+    "evidence": {}
+  },
+  "c1edf7ac53d4a34505b043bd29ab4ee05ed38f1dea4cf2537033570beb26164f": {
+    "query": "recycled derby shoes pointed toe",
+    "filters": {},
+    "soft_intent": "recycled men's pointed toe derby shoes",
+    "dropped": [
+      [
+        "product_type_name",
+        "Shoes",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.6328093470001477,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shoes\"}, \"evidence\": {\"product_type_name\": \"shoes\", \"colour_family\": \"recycled\", \"index_group_name\": \"Men'swear\", \"style\": \"derby\", \"heel_style\": \"pointed toe\"}, \"soft_intent\": \"recycled men's pointed toe derby shoes\"}",
+    "evidence": {}
+  },
+  "3da7e776cb346100823289215809db827e30a748cffaa11f4ed1fea114bfb72e": {
+    "query": "fast drying mesh shorts with drawstring waist",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "fast drying mesh shorts with drawstring waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.413058686000113,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"fast drying mesh shorts with drawstring waist\"}, \"soft_intent\": \"fast drying mesh shorts with drawstring waist\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "108fe3ff608315fa6cbe654016122e96fc074e7b32746cdf6cf581f1ae993e1d": {
+    "query": "organic cotton long sleeve top",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "organic cotton long sleeve",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.5953833600005964,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"organic cotton long sleeve\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "9b7d65ea1086f045f7788f499a0e2d16419f25f84e0bc3ddb288b9e9b59e73a1": {
+    "query": "drawstring shorts cotton pockets",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "drawstring shorts cotton pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7187316139998075,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"drawstring shorts cotton pockets\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "d679963e444f85d33b5e263d8710c402cf03e40ab7c35e6fd9361e29c34b3d0b": {
+    "query": "asymmetric ribbed polo neck top",
+    "filters": {},
+    "soft_intent": "asymmetric ribbed polo neck top",
+    "dropped": [
+      [
+        "product_type_name",
+        "Polo shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1018151960006435,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Polo shirt\"}, \"evidence\": {\"product_type_name\": \"polo shirt\", \"index_group_name\": \"Men'swear\", \"colour_family\": \"Ribbed\"}, \"soft_intent\": \"asymmetric ribbed polo neck top\"}",
+    "evidence": {}
+  },
+  "0c6874a573d281cc866cc64c1477daa96dbd831e085dc1df7955b4f75736f1ab": {
+    "query": "cotton jersey shirt shorts with braces",
+    "filters": {},
+    "soft_intent": "cotton jersey shirt shorts with braces",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8949880629998006,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"cotton jersey shirt shorts with braces\"}",
+    "evidence": {}
+  },
+  "5cc3f670c49af9621a2cff2f40d653667fd2045caf48ee0db24df5f6bd18010b": {
+    "query": "metal hoop earrings plastic beads",
+    "filters": {},
+    "soft_intent": "metal hoop earrings plastic beads",
+    "dropped": [
+      [
+        "product_type_name",
+        "Earings",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8075903640001343,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Earings\"}, \"evidence\": {\"product_type_name\": \"earings\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"metal hoop earrings plastic beads\"}",
+    "evidence": {}
+  },
+  "183a0d8277a58d0b042365ea349b1c27a60e5dec80fbe2ad0efd5d1cb0805899": {
+    "query": "cotton alice band with bow",
+    "filters": {},
+    "soft_intent": "cotton alice band with bow",
+    "dropped": [
+      [
+        "colour_family",
+        "Alice Band",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "index_group_name",
+        "Hair/alice band",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Alice Band",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.86803507500008,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Alice Band\", \"index_group_name\": \"Hair/alice band\", \"product_type_name\": \"Alice Band\"}, \"evidence\": {\"product_type_name\": \"alice band\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"cotton alice band with bow\"}",
+    "evidence": {}
+  },
+  "b8500f73bac9e7b39b3ab71afcd460a22e5ed248143468929558d21c06e068e1": {
+    "query": "soft cotton wool jumper long sleeves",
+    "filters": {},
+    "soft_intent": "soft cotton wool jumper long sleeves",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.01857165400088,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"colour_family\": \"cotton\", \"index_group_name\": \"Ladieswear\"}, \"soft_intent\": \"soft cotton wool jumper long sleeves\"}",
+    "evidence": {}
+  },
+  "ae8241fc17042d69677a9052074c70ff2db6dd0db438f1f866b0e0fa6b2931b7": {
+    "query": "textured knit cotton socks",
+    "filters": {},
+    "soft_intent": "textured knit cotton",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.6805171569994855,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"textured knit cotton\"}",
+    "evidence": {}
+  },
+  "9dae1e621f0ecf273d1df2d584711c14aaf6e3dbb9ff8c9976d48d98fac58b90": {
+    "query": "stretch cotton crop top with collar",
+    "filters": {},
+    "soft_intent": "stretch cotton crop top with collar",
+    "dropped": [
+      [
+        "product_type_name",
+        "Crop Top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.6065457120002975,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Crop Top\"}, \"evidence\": {\"product_type_name\": \"crop top\", \"colour_family\": \"stretch cotton\"}, \"soft_intent\": \"stretch cotton crop top with collar\"}",
+    "evidence": {}
+  },
+  "70d444d6e94edd6a1369715edc0fa1fc6a0f3df3fe3695678ac229f940ea8cac": {
+    "query": "organic cotton sleeveless bodysuit",
+    "filters": {
+      "product_type_name": "Bodysuit"
+    },
+    "soft_intent": "organic cotton sleeveless bodysuit",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.939735035999547,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bodysuit\"}, \"evidence\": {\"product_type_name\": \"bodysuit\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"organic cotton sleeveless bodysuit\"}",
+    "evidence": {
+      "product_type_name": "bodysuit"
+    }
+  },
+  "eae7e358d9d6d2ae4e3cd4422deb67a1dd5cb6e38add4795c54d425eccb40983": {
+    "query": "crinkled jersey halter neck glitter dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "crinkled jersey halter neck glitter dress",
+    "dropped": [
+      [
+        "colour_family",
+        "Glitter",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "index_group_name",
+        "Divided",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.146069893999993,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Glitter\", \"index_group_name\": \"Divided\", \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"glitter\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"crinkled jersey halter neck glitter dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "197fb981788d3b9ff6200d82044dc5c959fb84b5db7bfe6cf5555cc8b51735eb": {
+    "query": "microfibre lace bra with padding",
+    "filters": {
+      "product_type_name": "Bra"
+    },
+    "soft_intent": "microfibre lace bra with padding",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.715793202999521,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bra\"}, \"evidence\": {\"product_type_name\": \"bra\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"microfibre lace bra with padding\"}",
+    "evidence": {
+      "product_type_name": "bra"
+    }
+  },
+  "ffff280b74d6cde5dc5736f682af3e660ca64e4ca56bc750483c377ae4ccaeff": {
+    "query": "airy chiffon beaded dress back button",
+    "filters": {},
+    "soft_intent": "airy chiffon beaded dress back button",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9267106689994762,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"airy chiffon beaded dress back button\"}",
+    "evidence": {}
+  },
+  "b9c6c1d10387e6e944227d7b860c05818c2964fd3a13df8ce04ff3cf91db281d": {
+    "query": "cotton ballet pumps with bow",
+    "filters": {
+      "product_type_name": "Pumps"
+    },
+    "soft_intent": "cotton ballet pumps with bow",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ballerinas",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0087603829997533,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Ballerinas\", \"product_type_name\": \"Pumps\"}, \"evidence\": {\"product_type_name\": \"pumps\", \"index_group_name\": \"ballet\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"cotton ballet pumps with bow\"}",
+    "evidence": {
+      "product_type_name": "pumps"
+    }
+  },
+  "ae6af71fef5ac3d16662b6ae1f3b35a7117f3da0e8c8b76e917a3903c8c57198": {
+    "query": "velvet padded parka winter hoodie",
+    "filters": {},
+    "soft_intent": "velvet padded winter hoodie",
+    "dropped": [
+      [
+        "index_group_name",
+        "Hoodies",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Parka",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9363061829999424,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Hoodies\", \"product_type_name\": \"Parka\"}, \"evidence\": {\"product_type_name\": \"parka\", \"index_group_name\": \"hoodies\", \"colour_family\": \"velvet\"}, \"soft_intent\": \"velvet padded winter hoodie\"}",
+    "evidence": {}
+  },
+  "1e67b6ba1d39fc03059d0e35b49638c96d4f23656a42094102c1c748c571e30b": {
+    "query": "long cotton shirt dress with puff sleeves",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "long cotton shirt dress with puff sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7581238140001005,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"long cotton shirt dress with puff sleeves\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "f9260f59a2074f5935d0df6b4e87930605a2c7f55ea3a5288f2da9651542222f": {
+    "query": "long sleeve V neck shirt with side slits",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "long sleeve v neck shirt with side slits",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.5050338529999863,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"v-neck\", \"product_type_name\": \"side slits\"}, \"soft_intent\": \"long sleeve v neck shirt with side slits\"}",
+    "evidence": {
+      "product_type_name": "side slits"
+    }
+  },
+  "fcda7ada6d62b527238f26ac5f867c5026da70a21a099d901fcb454de2e628e9": {
+    "query": "long sleeve linen shirt with pleat",
+    "filters": {},
+    "soft_intent": "long sleeve linen shirt with pleat",
+    "dropped": [
+      [
+        "product_type_name",
+        "Shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.3583144829999583,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Long Sleeve Linen Shirt With Pleats\"}, \"soft_intent\": \"long sleeve linen shirt with pleat\"}",
+    "evidence": {}
+  },
+  "59b1de42539bc99e80034653cdbaa26e68350a26b1a9758c828b104051e13686": {
+    "query": "long sleeve off shoulder wool knit sweater",
+    "filters": {},
+    "soft_intent": "long sleeve off shoulder wool knit sweater",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sweater",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.7823814299999867,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"wool\", \"index_group_name\": \"menswear\", \"product_type_name\": \"off-shoulder\", \"size\": \"long-sleeve\"}, \"soft_intent\": \"long sleeve off shoulder wool knit sweater\"}",
+    "evidence": {}
+  },
+  "97e2a24b5d1afc938895c6f9312ded32a0c6c38b919341f56494d48c2b2ea57e": {
+    "query": "suede sandals covered heels adjustable",
+    "filters": {},
+    "soft_intent": "suede sandals covered heels adjustable",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.7927781280004638,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"suede sandals covered heels adjustable\"}",
+    "evidence": {}
+  },
+  "9559b701742fe4784212791970e96a14327b540e804c8479a049445a7c08763e": {
+    "query": "suede side gore boots mesh lining",
+    "filters": {},
+    "soft_intent": "suede side gore boots mesh lining",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9010245429999486,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"suede side gore boots mesh lining\"}",
+    "evidence": {}
+  },
+  "2f51c3b06639e7ac40847f4558766d572215cef3fdfb13d9982c431f717c030f": {
+    "query": "hipster lace underwear microfibre",
+    "filters": {},
+    "soft_intent": "hipster lace underwear microfibre",
+    "dropped": [
+      [
+        "index_group_name",
+        "Underwear",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Underwear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9026410650003527,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Underwear\", \"product_type_name\": \"Underwear\"}, \"evidence\": {\"product_type_name\": \"underwear\", \"index_group_name\": \"hipster\", \"colour_family\": \"microfibre\"}, \"soft_intent\": \"hipster lace underwear microfibre\"}",
+    "evidence": {}
+  },
+  "619c0e4f0c5839053515dd39e510634bfd702711290613d61d29939ac153b95f": {
+    "query": "linen V-neck top for summer",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "summer linen V-neck",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.338418043999809,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"linen\"}, \"soft_intent\": \"summer linen V-neck\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "a74567640e7fb9cdeb1e654ece1be973c7a65e32a8d5c32f89b62bbb84a2ce30": {
+    "query": "crêpe weave jacket with pockets",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "crêpe weave jacket with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7501546760004203,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"crêpe weave jacket with pockets\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "0e4fedf7a4da13c34346afcbfb1bab5415198dd0c9f5f38da2a919d215507650": {
+    "query": "tiered chiffon sleeveless top lined",
+    "filters": {},
+    "soft_intent": "tiered chiffon sleeveless top lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 1.9568731009994735,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {}, \"soft_intent\": \"tiered chiffon sleeveless top lined\"}",
+    "evidence": {}
+  },
+  "457e8a19b110b3c2dfaede0d35fc9d955748ee08645e412b2185b16f5735ecf2": {
+    "query": "sturdy sweatshirt jacket with hood",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "sturdy sweatshirt jacket with hood",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8796770150001976,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"sturdy sweatshirt jacket with hood\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "91b77bf4737f1c48137fb2f6c2389ce69e11fb3ca5071f4c8c7bb4da4feefffc": {
+    "query": "Tencel wide pull-on pants with ties",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "wide pull-on tencel pants with ties",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0531595869997545,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Pants\"}, \"evidence\": {\"product_type_name\": \"pants\", \"colour_family\": \"tencel\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"wide pull-on tencel pants with ties\"}",
+    "evidence": {
+      "product_type_name": "pants"
+    }
+  },
+  "3a42ac74b7c3a2744cde3b4ed4dfb4d32e5ac3864194c30126c144bc5e2824d6": {
+    "query": "metal earrings hoop pendant sizes",
+    "filters": {},
+    "soft_intent": "metal earrings hoop pendant sizes",
+    "dropped": [
+      [
+        "product_type_name",
+        "Earings",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.7334444579992123,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Earings\"}, \"evidence\": {\"product_type_name\": \"earrings\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"metal earrings hoop pendant sizes\"}",
+    "evidence": {}
+  },
+  "63b06486aeb6964f9f309da01d08fd75d8acae08a82e2b5c82716f824fe39099": {
+    "query": "suede ankle strap sandals adjustable",
+    "filters": {
+      "product_type_name": "Sandals"
+    },
+    "soft_intent": "suede ankle strap sandals adjustable",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7869840659996044,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sandals\"}, \"evidence\": {\"product_type_name\": \"sandals\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"suede ankle strap sandals adjustable\"}",
+    "evidence": {
+      "product_type_name": "sandals"
+    }
+  },
+  "c946f584fef3c760883cb083921e88db23f76f64e612d5152717836e647b987c": {
+    "query": "washed cotton denim shirt with pockets",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "washed cotton denim shirt with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.746041815999888,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"washed cotton denim shirt with pockets\"}",
+    "evidence": {
+      "product_type_name": "shirt"
+    }
+  },
+  "95bd5c6e8fc7d2a66c37be58e6a871dce5d99c2a8d5ecc2e5c5e0a245df24b11": {
+    "query": "double layered cotton jumper with shoulder button",
+    "filters": {},
+    "soft_intent": "double layered cotton jumper with shoulder button",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9121946260002005,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"colour_family\": \"cotton\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"double layered cotton jumper with shoulder button\"}",
+    "evidence": {}
+  },
+  "6b86249600ce2faff9695488368f4ba475430c29e38318baa12f5c6ff95544a5": {
+    "query": "soft cotton cropped vest top",
+    "filters": {
+      "product_type_name": "Vest top"
+    },
+    "soft_intent": "soft cotton cropped vest top",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7848798980003266,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Vest top\"}, \"evidence\": {\"product_type_name\": \"vest top\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"soft cotton cropped vest top\"}",
+    "evidence": {
+      "product_type_name": "vest top"
+    }
+  },
+  "8eec28c06940cb8aa628234f3c60763aeced21fc680d27ab0998a668fb9d6df6": {
+    "query": "washed cotton cargo pants adjustable waist",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed cotton cargo pants with adjustable waist",
+    "dropped": [
+      [
+        "index_group_name",
+        "Cargo",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.344654460000129,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Cargo\", \"product_type_name\": \"Pants\"}, \"evidence\": {\"product_type_name\": \"pants\", \"index_group_name\": \"cargo\", \"colour_family\": \"cotton\", \"soft_intent\": \"adjustable waist\"}, \"soft_intent\": \"washed cotton cargo pants with adjustable waist\"}",
+    "evidence": {
+      "product_type_name": "pants"
+    }
+  },
+  "5eb65ac5248f6cbaa058dbd171e7b30f6ea2c78a0862d40ddd797920c0c74fb4": {
+    "query": "soft felt knee length coat lined",
+    "filters": {
+      "product_type_name": "Coat"
+    },
+    "soft_intent": "soft felt knee length coat lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6313921849996404,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Coat\"}, \"evidence\": {\"product_type_name\": \"coat\", \"colour_family\": \"\", \"index_group_name\": \"\"}, \"soft_intent\": \"soft felt knee length coat lined\"}",
+    "evidence": {
+      "product_type_name": "coat"
+    }
+  },
+  "f35786ae18ed293657e34f39827c54395d8fa7a6e674a64a51abbaa6070ed76b": {
+    "query": "wide neck chest pocket t-shirt",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "wide neck chest pocket t-shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.84025231600026,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"index_group_name\": \"other\", \"colour_family\": \"black\"}, \"soft_intent\": \"wide neck chest pocket t-shirt\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "3c2dde384502de0118740d8efad0785219109b54710f553edcf5209837e5464f": {
+    "query": "frilly woven back-buttoned dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "frilly woven back-buttoned dress",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.745783749000111,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"frilly woven back-buttoned dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "405169cc0ae31e3930888cada77eb36d1968deeb669e77726b1a0a1c51b12ec1": {
+    "query": "organic cotton pyjamas round neck",
+    "filters": {},
+    "soft_intent": "organic cotton pyjamas round neck",
+    "dropped": [
+      [
+        "index_group_name",
+        "Underwear",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Pyjamas",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.127627828000186,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Underwear\", \"product_type_name\": \"Pyjamas\"}, \"evidence\": {\"product_type_name\": \"pyjamas\", \"colour_family\": \"Organic Cotton\", \"index_group_name\": \"underwear\"}, \"soft_intent\": \"organic cotton pyjamas round neck\"}",
+    "evidence": {}
+  },
+  "9999b7328750b808df1ff60ca8d3d90f2c3d606385b0d6b57a21b2bf64a77d3c": {
+    "query": "soft cotton lace top",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "soft cotton lace top",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6675453190000553,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"cotton\", \"index_group_name\": \"other\"}, \"soft_intent\": \"soft cotton lace top\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "e9b65656c5536bf1d0d0f353dc3c86f770ed3edcab121b8c97090cd129547afc": {
+    "query": "soft rib knit turtle neck jumper",
+    "filters": {},
+    "soft_intent": "soft rib knit turtle neck jumper",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8495325710000543,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"index_group_name\": \"divided\", \"colour_family\": \"grey\"}, \"soft_intent\": \"soft rib knit turtle neck jumper\"}",
+    "evidence": {}
+  },
+  "47f521722e760e11f21adef03964be243987f891437c286f1d5bcff2c551b947": {
+    "query": "modal parka with hood and pockets",
+    "filters": {},
+    "soft_intent": "modal parka with hood and pockets",
+    "dropped": [
+      [
+        "product_type_name",
+        "Parkas",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.5764199430004737,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Parkas\"}, \"evidence\": {\"product_type_name\": \"parkas\", \"colour_family\": \"modal\"}, \"soft_intent\": \"modal parka with hood and pockets\"}",
+    "evidence": {}
+  },
+  "7e731e8cef2772947f97831ccdc575695f64f83c011ab79327580eeb29f38535": {
+    "query": "organic cotton trousers foldover waist",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "organic cotton trousers foldover waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7977875779997703,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"organic cotton trousers foldover waist\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "5c6fa37d338a5d6259805a8d5a681d6c93bda31c8a734108c2c894d4f48fa845": {
+    "query": "cotton boxer shorts short legs",
+    "filters": {},
+    "soft_intent": "cotton boxer shorts with short legs",
+    "dropped": [
+      [
+        "product_type_name",
+        "Boxer Shorts",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0810485820002214,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Boxer Shorts\"}, \"evidence\": {\"product_type_name\": \"boxer shorts\", \"index_group_name\": \"underwear tights\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"cotton boxer shorts with short legs\"}",
+    "evidence": {}
+  },
+  "828dfa8c4cffea25b33e4ab6ddd76743fdd55ac142bb19f3875c306e8ba8cefe": {
+    "query": "organic cotton long sleeve pyjamas",
+    "filters": {},
+    "soft_intent": "organic cotton long sleeve pyjamas",
+    "dropped": [
+      [
+        "index_group_name",
+        "Underwear",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Pyjamas",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1582097099999373,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Underwear\", \"product_type_name\": \"Pyjamas\"}, \"evidence\": {\"product_type_name\": \"pyjamas\", \"index_group_name\": \"underwear\", \"colour_family\": \"organic cotton\"}, \"soft_intent\": \"organic cotton long sleeve pyjamas\"}",
+    "evidence": {}
+  },
+  "679317c9adb2a99274a5d236430b4c9ee0c7097ee8fb2c85454bef2bbc5a290d": {
+    "query": "cropped top patterned jersey smocked neckline",
+    "filters": {},
+    "soft_intent": "cropped top patterned jersey with smocked neckline",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jersey",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2023304309996092,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jersey\"}, \"evidence\": {\"product_type_name\": \"jersey\", \"colour_family\": null, \"index_group_name\": null, \"pattern\": \"smocked neckline\"}, \"soft_intent\": \"cropped top patterned jersey with smocked neckline\"}",
+    "evidence": {}
+  },
+  "f6344a840f651dbf2229298e469380f9ca441051d4115282ad9dd4ef966a6669": {
+    "query": "metallic tassel earrings 16cm",
+    "filters": {},
+    "soft_intent": "metallic tassel earrings 16cm",
+    "dropped": [
+      [
+        "product_type_name",
+        "Earings",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.17286151099961,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Earings\"}, \"evidence\": {\"product_type_name\": \"earrings\", \"colour_family\": null, \"index_group_name\": null, \"size\": \"16cm\"}, \"soft_intent\": \"metallic tassel earrings 16cm\"}",
+    "evidence": {}
+  },
+  "99b8c08ac14cc76416bc573be21e7beaa5f1581063608a53089f12abe7e8e0d7": {
+    "query": "airy chiffon shorts lined",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "airy chiffon shorts lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.939950351999869,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": \"chiffon\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"airy chiffon shorts lined\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "44c97d42015761e3c886b62479e2e069820354c7051a72398fa13dda4ddfa609": {
+    "query": "hipster briefs lace trim lined",
+    "filters": {},
+    "soft_intent": "",
+    "dropped": [
+      [
+        "product_type_name",
+        "Briefs",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8772060589999455,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Briefs\"}, \"evidence\": {\"product_type_name\": \"briefs\", \"index_group_name\": \"Hipster\", \"colour_family\": \"laced\", \"soft_intent\": \"hipster briefs with lace trim\"}}",
+    "evidence": {}
+  },
+  "71a78f6899b19d6be5c95c58806faa41d8fadf10312b3622edd09d034b8c0c93": {
+    "query": "satin v-neck top lace trim skinny straps",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "satin v-neck top with lace trim and skinny straps",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.922609724000722,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"satin\", \"index_group_name\": \"divided\", \"style\": \"v-neck\", \"trimming\": \"lace\", \"strap type\": \"skinny straps\"}, \"soft_intent\": \"satin v-neck top with lace trim and skinny straps\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "53628dfa82ed50ea952259ae581d0f44868afcbc3c2c2bb4bae2e505d5d63800": {
+    "query": "soft fine knit jumper long sleeves",
+    "filters": {},
+    "soft_intent": "soft fine knit jumper long sleeves",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.582036459999472,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"index_group_name\": \"Ladieswear\"}, \"soft_intent\": \"soft fine knit jumper long sleeves\"}",
+    "evidence": {}
+  },
+  "4f275660b1e37ab993381aebd8b529065f43309e3fd59cc7c11d1d1d560af1df": {
+    "query": "washed high waist jeans ankle length stretch denim",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed high waist jeans ankle length stretch denim",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.7937274440000692,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"index_group_name\": \"ladieswear\", \"colour_family\": \"stretch denim\", \"size\": \"ankle length\", \"waist\": \"high\"}, \"soft_intent\": \"washed high waist jeans ankle length stretch denim\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "95cebbda877c4fc3a056b7d6dd55341efc5e3f18a64daa5652c3cee2048e3b94": {
+    "query": "fine-knit cotton cardigan moss stripes",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "fine-knit cotton cardigan with moss stripes",
+    "dropped": [
+      [
+        "colour_family",
+        "Moss",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "index_group_name",
+        "Cotton",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1671383779994358,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Moss\", \"index_group_name\": \"Cotton\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"colour_family\": \"moss\", \"index_group_name\": \"cotton\"}, \"soft_intent\": \"fine-knit cotton cardigan with moss stripes\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  "aceb308422566a647d7ce5b59adb333770cb6978049e42723dd1657c8404d665": {
+    "query": "woven bow tie adjustable back",
+    "filters": {},
+    "soft_intent": "woven bow tie adjustable back",
+    "dropped": [
+      [
+        "product_type_name",
+        "Bow Tie",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8567528670000684,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bow Tie\"}, \"evidence\": {\"product_type_name\": \"bow tie\", \"index_group_name\": \"other accessory\", \"colour_family\": \"black\"}, \"soft_intent\": \"woven bow tie adjustable back\"}",
+    "evidence": {}
+  },
+  "e367e8155d7a5817b29d1dd999aa5468d36bf2b13afb1f7f04004fa708a6d7d0": {
+    "query": "soft fleece thermal jacket",
+    "filters": {},
+    "soft_intent": "soft fleece thermal jacket",
+    "dropped": [
+      [
+        "product_type_name",
+        "Thermal Jacket",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.589763691999906,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Thermal Jacket\"}, \"evidence\": {\"product_type_name\": \"thermal jacket\", \"colour_family\": \"fleece\"}, \"soft_intent\": \"soft fleece thermal jacket\"}",
+    "evidence": {}
+  },
+  "24413b2bc2ad8a39b8da06d6c374c2ae795ea27cdc7a6293207ef7a3682e1c62": {
+    "query": "Leather open lace Derby shoes rubber soles",
+    "filters": {},
+    "soft_intent": "Leather open lace Derby shoes with rubber soles",
+    "dropped": [
+      [
+        "product_type_name",
+        "Shoes",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.194091825000214,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shoes\"}, \"evidence\": {\"product_type_name\": \"shoes\", \"colour_family\": null, \"index_group_name\": null, \"soles\": \"rubber\"}, \"soft_intent\": \"Leather open lace Derby shoes with rubber soles\"}",
+    "evidence": {}
+  },
+  "0d155b577b0a234a7b2c0a5260cc621c87d85737506e3aa87bb2ddd4f300ac83": {
+    "query": "cashmere raglan sleeve jumper",
+    "filters": {},
+    "soft_intent": "cashmere raglan sleeve men's jumper",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0105581909992907,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"colour_family\": \"cashmere\", \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"cashmere raglan sleeve men's jumper\"}",
+    "evidence": {}
+  },
+  "e900c7752e4ff249182e26ce9297975d8d860b5e0dc171616764118714fd3fc0": {
+    "query": "low waist high cut bikini bottoms",
+    "filters": {},
+    "soft_intent": "low waist high cut bikini bottoms",
+    "dropped": [
+      [
+        "index_group_name",
+        "Bikini top",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Bottoms",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.118770277999829,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Bikini top\", \"product_type_name\": \"Bottoms\"}, \"evidence\": {\"product_type_name\": \"bottoms\", \"index_group_name\": \"bikini top\", \"colour_family\": \"high cut\"}, \"soft_intent\": \"low waist high cut bikini bottoms\"}",
+    "evidence": {}
+  },
+  "d183f4a79f82923ad4be7a99ecf833752a25c00ca6201530b2a939b8adf857ed": {
+    "query": "short skirt with back zipper lined",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "short skirt with back zipper lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7409992929997316,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"short skirt with back zipper lined\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  "723b8ac3204e6a42bd6d009e7dac0450386ca7452ae6f78843dfb919d6b0f478": {
+    "query": "cotton seersucker blouse trumpet sleeves",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "cotton seersucker blouse trumpet sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9563778500005355,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"null\", \"index_group_name\": \"seersucker\"}, \"soft_intent\": \"cotton seersucker blouse trumpet sleeves\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "54a6f1b48c5885d36df2bd3db9549cb194f3b50065b1807fff0f0775ef67f817": {
+    "query": "lace push-up bra full cleavage",
+    "filters": {
+      "product_type_name": "Bra"
+    },
+    "soft_intent": "lace push-up bra with full cleavage",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9140297570002076,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bra\"}, \"evidence\": {\"product_type_name\": \"bra\", \"colour_family\": \"null\", \"index_group_name\": \"full cleavage\"}, \"soft_intent\": \"lace push-up bra with full cleavage\"}",
+    "evidence": {
+      "product_type_name": "bra"
+    }
+  },
+  "ffcf411836a1b21f2e353e32062193351c81853d6f1490cbef364a02c47e7e54": {
+    "query": "crêpe weave culottes high waist pockets",
+    "filters": {},
+    "soft_intent": "crêpe weave high waist pockets culottes",
+    "dropped": [
+      [
+        "product_type_name",
+        "Culottes",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9080395940000017,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Culottes\"}, \"evidence\": {\"product_type_name\": \"culottes\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"crêpe weave high waist pockets culottes\"}",
+    "evidence": {}
+  },
+  "826a63af65378cb5541425fa84e115bba7bbd409beff9486f72782b86544666a": {
+    "query": "waistcoat with buttons fake pockets lined Oxford cotton",
+    "filters": {},
+    "soft_intent": "fake pockets lined waistcoat",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Waistcoat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9388671780006916,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Waistcoat\"}, \"evidence\": {\"product_type_name\": \"waistcoat\", \"index_group_name\": \"other accessories\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"fake pockets lined waistcoat\"}",
+    "evidence": {}
+  },
+  "5fb4e853de2cc9edfde9014b2f8aba1329fe05a132e1175cd7f070035896e230": {
+    "query": "cotton joggers with drawstring waist",
+    "filters": {},
+    "soft_intent": "cotton joggers with drawstring waist",
+    "dropped": [
+      [
+        "product_type_name",
+        "Joggers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0634656740003265,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Joggers\"}, \"evidence\": {\"product_type_name\": \"joggers\", \"colour_family\": \"Cotton\", \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"cotton joggers with drawstring waist\"}",
+    "evidence": {}
+  },
+  "719a8032a7eef8cd45d634c306493be0a063683b2d6f9c1eda8262a417cfebdd": {
+    "query": "suede skirt with back zipper lined",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "suede skirt with back zipper lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.87731755599998,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"null\", \"index_group_name\": \"null\"}, \"soft_intent\": \"suede skirt with back zipper lined\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  "2007d261d07b8106dc49e66fd48419a8e5d94583c6ca7d5f64bf9e0422b6d2ca": {
+    "query": "calf length sleeveless cotton dress",
+    "filters": {},
+    "soft_intent": "",
+    "dropped": [],
+    "ok": false,
+    "llm_seconds": 8.835124415999417,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless\", \"product_type_name\": \"cotton\", \"product_type_name\": \"sleeveless",
+    "evidence": {}
+  },
+  "ccd3fd453e19fa09beb8e6fc79e0f1ce90af1054b9c8982cfa98824b88af2162": {
+    "query": "organic cotton double layer hats",
+    "filters": {},
+    "soft_intent": "organic cotton double layer hat",
+    "dropped": [
+      [
+        "product_type_name",
+        "Hat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.5375666719992296,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Hat\"}, \"evidence\": {\"product_type_name\": \"hat\", \"colour_family\": \"Organic Cotton Double Layer\"}, \"soft_intent\": \"organic cotton double layer hat\"}",
+    "evidence": {}
+  },
+  "1c11b941ac51cf5da11612f428430978b3975673eab940d27641807cf58d6d08": {
+    "query": "ankle jumpsuit shoulder elastic waist pockets",
+    "filters": {},
+    "soft_intent": "ankle jumpsuit with shoulder elastic waist pockets",
+    "dropped": [
+      [
+        "index_group_name",
+        "Jumpsuit/Playsuit",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Ankle Jumpsuit",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.77059381700019,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Jumpsuit/Playsuit\", \"product_type_name\": \"Ankle Jumpsuit\"}, \"evidence\": {\"product_type_name\": \"ankle jumpsuit\", \"index_group_name\": \"jumpsuit/playsuit\", \"colour_family\": \"shoulder elastic waist pockets\"}, \"soft_intent\": \"ankle jumpsuit with shoulder elastic waist pockets\"}",
+    "evidence": {}
+  },
+  "d2d67940ccd9c56d56237945b80dc0f2bca1c579adec3152e28a331c3b3921d4": {
+    "query": "cotton bra lined adjustable straps",
+    "filters": {
+      "product_type_name": "Bra"
+    },
+    "soft_intent": "cotton bra lined adjustable straps",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.689522938999289,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bra\"}, \"evidence\": {\"product_type_name\": \"bra\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cotton bra lined adjustable straps\"}",
+    "evidence": {
+      "product_type_name": "bra"
+    }
+  },
+  "badbbf3ba867cd7ce4adfd345cbe3b4e7286c8d98e3aa50511720b02912e0a5e": {
+    "query": "soft cotton sun hat lined",
+    "filters": {},
+    "soft_intent": "soft cotton sun hat lined",
+    "dropped": [
+      [
+        "index_group_name",
+        "Headgear",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Sun hat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9859711789995345,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Headgear\", \"product_type_name\": \"Sun hat\"}, \"evidence\": {\"product_type_name\": \"sun hat\", \"index_group_name\": \"headgear\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"soft cotton sun hat lined\"}",
+    "evidence": {}
+  },
+  "92966f5ee483a829408b0313756a72b845a577601776ca46808127311523a029": {
+    "query": "organic cotton sweatshirt suit",
+    "filters": {},
+    "soft_intent": "organic cotton sweatshirt suit",
+    "dropped": [
+      [
+        "product_type_name",
+        "Suit",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.4839020030003667,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Suit\"}, \"evidence\": {\"product_type_name\": \"suit\", \"colour_family\": \"Organic Cotton\"}, \"soft_intent\": \"organic cotton sweatshirt suit\"}",
+    "evidence": {}
+  },
+  "db9ccbcc5c2f45b14ebfbd26dc26454ab0a8babc5cbbbef7199831232a4f462b": {
+    "query": "long fitted lace blouse with buttons",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "long fitted lace blouse with buttons",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.735489095999583,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"long fitted lace blouse with buttons\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "e28374595df1f8b7298fc852035e33dd91110e9d973f75f79f7cae42b99037b9": {
+    "query": "soft cotton jersey shorts tops vests",
+    "filters": {},
+    "soft_intent": "soft cotton jersey shorts tops vests",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8306793359997755,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"soft cotton jersey shorts tops vests\"}",
+    "evidence": {}
+  },
+  "e28da3975645415c587259b50643864fc1586f2f7bd43835f5a0e6a9f494d294": {
+    "query": "long sleeve shirt with yoke pleat back",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "long sleeve shirt with yoke pleat back",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.4793084659995657,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Long sleeve shirt with yoke pleat back\"}, \"soft_intent\": \"long sleeve shirt with yoke pleat back\"}",
+    "evidence": {
+      "product_type_name": "Long sleeve shirt with yoke pleat back"
+    }
+  },
+  "8a4b36b4d6277393606804072520f885f485086dc718780f7c250228661db15b": {
+    "query": "grained leather slip on trainers",
+    "filters": {},
+    "soft_intent": "grained leather slip on trainers",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other shoe",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Trainers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.964249941000162,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other shoe\", \"product_type_name\": \"Trainers\"}, \"evidence\": {\"product_type_name\": \"trainers\", \"index_group_name\": \"other shoe\", \"colour_family\": \"grain\"}, \"soft_intent\": \"grained leather slip on trainers\"}",
+    "evidence": {}
+  },
+  "974fce2b209b1496229b27c6dd730dfd4f38ef46927461dae77850b0a3c07995": {
+    "query": "long asymmetrical tiered dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "long asymmetrical tiered dress",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8887902039996334,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"index_group_name\": \"divided\", \"colour_family\": \"beige\"}, \"soft_intent\": \"long asymmetrical tiered dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "88e29d904f286599ff639a834bd7e257487f3b434940b251303938a0c7735f37": {
+    "query": "soft brushed fleece cardigan with pockets",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "soft brushed fleece cardigan with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0042335190000813,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"colour_family\": \"fleece\", \"index_group_name\": \"other\"}, \"soft_intent\": \"soft brushed fleece cardigan with pockets\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  "a142244e116cc8c8959f537d1e167072a96cb5a2a4da44edd51e9810f045f744": {
+    "query": "soft knit jumper wrap collar long sleeves",
+    "filters": {},
+    "soft_intent": "soft knit jumper with wrap collar and long sleeves",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.025948292999601,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"index_group_name\": \"divided\", \"colour_family\": \"grey\"}, \"soft_intent\": \"soft knit jumper with wrap collar and long sleeves\"}",
+    "evidence": {}
+  },
+  "c2bb7213b4be1ba3a4153b9944edb7e916280565cdbf99ab250e74db14cfa620": {
+    "query": "suede slip on trainers padded sides",
+    "filters": {},
+    "soft_intent": "suede slip on trainers padded sides",
+    "dropped": [
+      [
+        "product_type_name",
+        "Trainers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8660462440002448,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trainers\"}, \"evidence\": {\"product_type_name\": \"trainers\", \"colour_family\": null, \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"suede slip on trainers padded sides\"}",
+    "evidence": {}
+  },
+  "129e9975687ee287355c09eb761f7b90816ffeca35a8168fee7db813c45fe0ab": {
+    "query": "soft cotton fitted top long sleeves",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "soft cotton fitted top with long sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.2930016270001943,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": null, \"index_group_name\": null, \"size\": \"fitted\", \"style\": \"long sleeves\"}, \"soft_intent\": \"soft cotton fitted top with long sleeves\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "56ac7e66199b0e10b85d61012957fa607575b371302e753467fec7447dbeeaa9": {
+    "query": "printed shorts with bow waist",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "printed shorts with bow waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.681793421000293,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"printed shorts with bow waist\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "61aa2595b5ef220070e02ee141812bbb3a7dabb24dea964996ad93f3db2677a9": {
+    "query": "stretch jersey long sleeve top gathers sides",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "stretch jersey long sleeve top with gathered sides",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.4051203950002673,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"jersey\", \"style\": \"gathered sides\"}, \"soft_intent\": \"stretch jersey long sleeve top with gathered sides\"}",
+    "evidence": {
+      "product_type_name": "jersey"
+    }
+  },
+  "527c24f4c4cdc4152df2daf2b7f1ee7d28546ef067233e8b1228eb03824741fd": {
+    "query": "fine knit dropped shoulder sweater",
+    "filters": {
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "fine knit dropped shoulder sweater",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9416423880002185,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"index_group_name\": \"divided\", \"colour_family\": \"beige\"}, \"soft_intent\": \"fine knit dropped shoulder sweater\"}",
+    "evidence": {
+      "product_type_name": "sweater"
+    }
+  },
+  "944fc1832228874d1a3077db6c0874dd0811a4dbf4d25f91e927e9811042729b": {
+    "query": "fast drying sports vest racer back",
+    "filters": {},
+    "soft_intent": "fast drying sports vest racer back",
+    "dropped": [
+      [
+        "product_type_name",
+        "Racer Back Vest",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8559145389999685,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Racer Back Vest\"}, \"evidence\": {\"product_type_name\": \"vest\", \"colour_family\": null, \"index_group_name\": \"Sports\"}, \"soft_intent\": \"fast drying sports vest racer back\"}",
+    "evidence": {}
+  },
+  "792cc8ac63ce5b9539d66c4bbc8008968bd124ce3cb91ff83d48e77135ae2750": {
+    "query": "organic cotton long sleeve dress kids",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "organic cotton long sleeve dress kids",
+    "dropped": [
+      [
+        "index_group_name",
+        "Kids Underwear top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.051612696999655,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Kids Underwear top\", \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"index_group_name\": \"kids underwears\", \"colour_family\": \"organic cotton\"}, \"soft_intent\": \"organic cotton long sleeve dress kids\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "f255cdd3b733eb16f32fa730933c722281f75ad0216d58b7a542a38938e83d80": {
+    "query": "modal top with shoulder flounce",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "modal top with shoulder flounce",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.43229366200012,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"modal\"}, \"soft_intent\": \"modal top with shoulder flounce\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "8a3a84390915081ee2daae67a6a92eb98c54bce81fdecd67e1965379988d978a": {
+    "query": "woven coat with belt and vents",
+    "filters": {
+      "product_type_name": "Coat"
+    },
+    "soft_intent": "woven coat with belt and vents",
+    "dropped": [
+      [
+        "index_group_name",
+        "Men'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1167527420002443,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Men'swear\", \"product_type_name\": \"Coat\"}, \"evidence\": {\"product_type_name\": \"coat\", \"index_group_name\": \"men's\", \"colour_family\": \"woven\"}, \"soft_intent\": \"woven coat with belt and vents\"}",
+    "evidence": {
+      "product_type_name": "coat"
+    }
+  },
+  "9243ecc6a7121f7fec55bcdcee91b63fa934ae10742019fd13ca08739c2df809": {
+    "query": "long sleeve fitted jacket with fleece inner",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "long sleeve fitted jacket with fleece inner",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7480565420000858,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"long sleeve fitted jacket with fleece inner\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "cd2ab303a08aae8c9aca32fc203a78d01bf2c12ea74325b92bf431a09a0f351f": {
+    "query": "long crinkled kaftan lined",
+    "filters": {},
+    "soft_intent": "long crinkled kaftan lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Kaftan",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.755670972000189,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Kaftan\"}, \"evidence\": {\"product_type_name\": \"kaftan\", \"colour_family\": \"crinkled\"}, \"soft_intent\": \"long crinkled kaftan lined\"}",
+    "evidence": {}
+  },
+  "39888816227ce87dd52febb15bf27f0470c6fba21a7f1b98abe9b80cd66f6582": {
+    "query": "metal chain necklace stones beads",
+    "filters": {
+      "product_type_name": "Necklace"
+    },
+    "soft_intent": "metal chain necklace stones beads",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.826084323000032,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Necklace\"}, \"evidence\": {\"product_type_name\": \"necklace\", \"index_group_name\": \"Other accessories\", \"colour_family\": \"Metal\"}, \"soft_intent\": \"metal chain necklace stones beads\"}",
+    "evidence": {
+      "product_type_name": "necklace"
+    }
+  },
+  "4690fe48ddafd7c1e3436fbadb7d495bb7e510edeb78e3819bf53f2c37f976be": {
+    "query": "sweatshirt joggers with drawstring waist",
+    "filters": {},
+    "soft_intent": "sweatshirt joggers with drawstring waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.0340049730002647,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"sweatshirt joggers with drawstring waist\"}",
+    "evidence": {}
+  },
+  "5bf5c4efd16df3be388e183ff0a4121ce5701839330f3900dba96a19cb6e957a": {
+    "query": "soft long-sleeved merino wool jumper",
+    "filters": {},
+    "soft_intent": "soft long-sleeved merino wool jumper",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.6367644000001746,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"colour_family\": \"merino wool\"}, \"soft_intent\": \"soft long-sleeved merino wool jumper\"}",
+    "evidence": {}
+  },
+  "99629729664472425c90c7b6680efdf5ea8f626a6f00223b7fd09049b8e0edc2": {
+    "query": "satin v neck top lace straps",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8025785259997065,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"satin\", \"index_group_name\": \"divided\", \"soft_intent\": \"v neck top with lace straps\"}}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "cfe8fdbac6b0017cb2831e6a1913d4717182a6f61f7029bdd98f921cb9ca7556": {
+    "query": "washed denim dungarees with zip front",
+    "filters": {
+      "product_type_name": "Dungarees"
+    },
+    "soft_intent": "washed denim dungarees with zip front",
+    "dropped": [
+      [
+        "index_group_name",
+        "Dungarees",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2985031680000247,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Dungarees\", \"product_type_name\": \"Dungarees\"}, \"evidence\": {\"product_type_name\": \"dungarees\", \"colour_family\": \"denim\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"washed denim dungarees with zip front\"}",
+    "evidence": {
+      "product_type_name": "dungarees"
+    }
+  },
+  "70613f29c0149eb6c5b59430a1edb4cb51f12ed528de473e8cdec8181b51c9f3": {
+    "query": "sweatshirt shorts with pockets",
+    "filters": {},
+    "soft_intent": "sweatshirt shorts with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9103640200000882,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"sweatshirt shorts with pockets\"}",
+    "evidence": {}
+  },
+  "5167e502becf08074a5feff0d26277e59c04a187cdd8e463c19ab509d565826f": {
+    "query": "fast drying trainer socks",
+    "filters": {},
+    "soft_intent": "fast drying trainer socks",
+    "dropped": [
+      [
+        "product_type_name",
+        "Trainer Socks",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.4477026570002636,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trainer Socks\"}, \"evidence\": {\"product_type_name\": \"trainer socks\", \"colour_family\": null}, \"soft_intent\": \"fast drying trainer socks\"}",
+    "evidence": {}
+  },
+  "37bf41a6316eea9bfa4cbd825f8eac4c0d94da0d8359f5557361c3a73ea748b2": {
+    "query": "cotton twill double breasted trenchcoat",
+    "filters": {},
+    "soft_intent": "cotton twill double breasted men's trenchcoat",
+    "dropped": [
+      [
+        "product_type_name",
+        "Trenchcoat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.197478843000681,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trenchcoat\"}, \"evidence\": {\"product_type_name\": \"trenchcoat\", \"index_group_name\": \"Men'swear\", \"colour_family\": \"Cotton\"}, \"soft_intent\": \"cotton twill double breasted men's trenchcoat\"}",
+    "evidence": {}
+  },
+  "5e366e81e5319663a2f18b98473bf2e098c30c3c6dbcd2cc7156bff081ca2ac8": {
+    "query": "washed skinny jeans adjustable waist",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed skinny jeans with adjustable waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.251331200000095,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"washed skinny jeans with adjustable waist\"}, \"soft_intent\": \"washed skinny jeans with adjustable waist\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "8b162598d6a283db8bd6571a8d5f2aff73f5e90595af99eeaee46b3e1ebce291": {
+    "query": "slim tapered cigarette trousers",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "slim tapered cigarette trousers",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.32362993300012,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"tapered cigarette trousers\"}, \"soft_intent\": \"slim tapered cigarette trousers\"}",
+    "evidence": {
+      "product_type_name": "tapered cigarette trousers"
+    }
+  },
+  "575fd7ff839d31e55309bca4c2eb398791dcd9d5d0954a45e6df9be9597b48ba": {
+    "query": "denim V-neck jumpsuit with pockets",
+    "filters": {},
+    "soft_intent": "denim V-neck jumpsuit with pockets",
+    "dropped": [
+      [
+        "index_group_name",
+        "Jumpsuit/Playsuit",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Jumpsuit",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2563462229991273,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Jumpsuit/Playsuit\", \"product_type_name\": \"Jumpsuit\"}, \"evidence\": {\"product_type_name\": \"jumpsuit\", \"index_group_name\": \"denim V-neck jumpsuit with pockets\"}, \"soft_intent\": \"denim V-neck jumpsuit with pockets\"}",
+    "evidence": {}
+  },
+  "66abeb3980a6165842ffce63b932a7ba1f1c4754a149cd62fcee5a2f858ecd52": {
+    "query": "washed skinny jeans stretch waist",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed skinny jeans stretch waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.503013606999957,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"colour_family\": \"stretch\"}, \"soft_intent\": \"washed skinny jeans stretch waist\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "a5687ff97b0a64d3c1df1b4be01f49ef7636e77e9c1c0473f9acfaecf4ef0c89": {
+    "query": "viscose high waist trousers",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "high waist viscose trousers",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0325273110001945,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"viscose\", \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"high waist viscose trousers\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "2702d0c96a08866f0eefd1d3d5edb23779d7bf78e1ebced18341c84785da02c2": {
+    "query": "wrapover front nursing blouse",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "wrapover front nursing blouse",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.854730830000335,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"index_group_name\": \"divided\", \"colour_family\": \"beige\"}, \"soft_intent\": \"wrapover front nursing blouse\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "dd3ff18e42121a91a11190e70f92ee44fe4644311f868ce11d4ade84bc4494f6": {
+    "query": "deep kangaroo pockets outdoor jacket",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "deep kangaroo pockets outdoor jacket",
+    "dropped": [
+      [
+        "index_group_name",
+        "Outdoor",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.95048116199996,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Outdoor\", \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"index_group_name\": \"outdoor\", \"colour_family\": \"kangaroo\"}, \"soft_intent\": \"deep kangaroo pockets outdoor jacket\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "22ba6bea7eeb8648496c8489cdacac068a89775b1734e3ceee9086244fb90eca": {
+    "query": "cashmere long sleeve jumper",
+    "filters": {},
+    "soft_intent": "cashmere long sleeve jumper",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jumper",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.5379542949995084,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jumper\"}, \"evidence\": {\"product_type_name\": \"jumper\", \"colour_family\": \"cashmere\"}, \"soft_intent\": \"cashmere long sleeve jumper\"}",
+    "evidence": {}
+  },
+  "fc3e16dde35dc83bcefcce8733ee01fbb5db576cc2c1c083a0f05dc5937d4ee3": {
+    "query": "extra long sleeve fitted top",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "extra long sleeve fitted top",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0469366780007476,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": null, \"index_group_name\": null, \"size\": \"Extra Long Sleeve Fitted\"}, \"soft_intent\": \"extra long sleeve fitted top\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "f713e736fb2c40a6a3a1778592ca76166a032affd44cbb51cd6c045e4f04ba6c": {
+    "query": "recycled polyester v neck blouse",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "recycled polyester v neck blouse",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.570611755000755,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"recycled polyester\"}, \"soft_intent\": \"recycled polyester v neck blouse\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "9d05bdddc9c110b2934b6c386953a105f52964844cb34b266494c23de0aec700": {
+    "query": "glittery jersey back neck tab dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "glittery jersey back neck tab dress",
+    "dropped": [
+      [
+        "colour_family",
+        "Glitter",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.6697824150005545,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Glitter\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"glitter\"}, \"soft_intent\": \"glittery jersey back neck tab dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "49c0d8501e2b6c61ff638ecadd2d4da3c9103b8b327a27e787d932ca3f002e4d": {
+    "query": "V-neck viscose dress with buttons and tie",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "v-neck viscose dress with buttons and tie",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 4.076290279999739,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"V-neck\", \"material\": \"Viscose\", \"accessories\": \"buttons\", \"accessories\": \"tie\"}, \"soft_intent\": \"v-neck viscose dress with buttons and tie\"}",
+    "evidence": {
+      "product_type_name": "V-neck"
+    }
+  },
+  "2ff80a4c4685a094d57275d5d3c0340ca82c19a4d8ff56aa849e2e27b19faa9e": {
+    "query": "cotton mid waist briefs lined",
+    "filters": {},
+    "soft_intent": "cotton mid waist briefs lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Briefs",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9933306449993324,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Briefs\"}, \"evidence\": {\"product_type_name\": \"briefs\", \"colour_family\": \"cotton\", \"index_group_name\": \"Women's wear\"}, \"soft_intent\": \"cotton mid waist briefs lined\"}",
+    "evidence": {}
+  },
+  "9c24a34fc2b24b75cb1513a6521438d3479f5a3f2367004e7ffa8b7525d17f89": {
+    "query": "one shoulder knee length jersey dress lined",
+    "filters": {},
+    "soft_intent": "one shoulder knee length jersey dress lined",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jersey Dress",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8600046749998,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jersey Dress\"}, \"evidence\": {\"product_type_name\": \"jersey dress\", \"index_group_name\": \"\", \"colour_family\": \"\"}, \"soft_intent\": \"one shoulder knee length jersey dress lined\"}",
+    "evidence": {}
+  },
+  "5a7c4b1e5406996967bd3dffae4c334f083e86e3005f45abdac8b5723a030a26": {
+    "query": "sock boots round toe 6cm heel",
+    "filters": {
+      "product_type_name": "Boots"
+    },
+    "soft_intent": "sock boots round toe 6cm heel",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.4250515060002726,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Boot\"}, \"evidence\": {\"product_type_name\": \"boot\", \"colour_family\": null, \"index_group_name\": null, \"heel_height\": \"6cm\", \"foot_shape\": \"round toe\"}, \"soft_intent\": \"sock boots round toe 6cm heel\"}",
+    "evidence": {
+      "product_type_name": "boots"
+    }
+  },
+  "bb41deb0e3300456173b85f8477e985798b51a5ed1dd05820204d523e8f1e887": {
+    "query": "skeleton print jersey costume",
+    "filters": {},
+    "soft_intent": "skeleton print jersey costume",
+    "dropped": [
+      [
+        "index_group_name",
+        "Costumes",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Jersey",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.929045761999987,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Costumes\", \"product_type_name\": \"Jersey\"}, \"evidence\": {\"product_type_name\": \"jersey\", \"index_group_name\": \"costumes\", \"colour_family\": \"skeleton\"}, \"soft_intent\": \"skeleton print jersey costume\"}",
+    "evidence": {}
+  },
+  "d029e6fea87a1bef9a5b2502369579a390999cbfa87a02448691031a72a3a3f8": {
+    "query": "crêpe high waist skirt with ties",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "crêpe high waist skirt with ties",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.987501851000161,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"crepe\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"crêpe high waist skirt with ties\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  "267470fcb539d445c9bbf1d16bfd6e63ca331c53998237c15f3cf255a63f469e": {
+    "query": "organic cotton long sleeve shirt with pockets",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "organic cotton long sleeve shirt with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.706781115999547,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"organic cotton long sleeve shirt with pockets\"}",
+    "evidence": {
+      "product_type_name": "shirt"
+    }
+  },
+  "c146db327cfe67919edbe932fc6a955a5d47f8476c1d4bfb7e18f6ada271b4d0": {
+    "query": "felted coat with tie belt",
+    "filters": {
+      "product_type_name": "Coat"
+    },
+    "soft_intent": "felted coat with tie belt",
+    "dropped": [
+      [
+        "index_group_name",
+        "Couture",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.789937559000464,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Couture\", \"product_type_name\": \"Coat\"}, \"evidence\": {\"product_type_name\": \"coat\", \"index_group_name\": \"cotteau\"}, \"soft_intent\": \"felted coat with tie belt\"}",
+    "evidence": {
+      "product_type_name": "coat"
+    }
+  },
+  "a3c2f81c997c9455123d9e63559a177a6a7ae512d91d89f953a41c1c747021f2": {
+    "query": "cropped sleeveless top with straps",
+    "filters": {},
+    "soft_intent": "cropped sleeveless top with straps",
+    "dropped": [
+      [
+        "product_type_name",
+        "Top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 1.8817166779999752,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {}, \"soft_intent\": \"cropped sleeveless top with straps\"}",
+    "evidence": {}
+  },
+  "5a1ebdaaf86d67bf5302b1c6889429c2b893b3e937d9bf13952cb9f11a1df543": {
+    "query": "wool blend V-neck cardigan long sleeves",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "wool blend v-neck cardigan long sleeves",
+    "dropped": [
+      [
+        "index_group_name",
+        "Garments Set",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1119682419994206,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Garments Set\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"index_group_name\": \"garments set\", \"colour_family\": \"wool\"}, \"soft_intent\": \"wool blend v-neck cardigan long sleeves\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  "b6439cda008c36d76e27499df12142626e0b49e5e4808a2814d11b53f07a738e": {
+    "query": "cotton racerback top with elastic hem",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "cotton racerback top with elastic hem",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 4.382030460000351,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"Cotton\", \"index_group_name\": \"Women's wear\", \"product_type_name\": \"racerback\", \"colour_family\": \"Cotton\", \"index_group_name\": \"women's wear\", \"product_type_name\": \"elastic hem\"}, \"soft_intent\": \"cotton racerback top with elastic hem\"}",
+    "evidence": {
+      "product_type_name": "elastic hem"
+    }
+  },
+  "98389902e8a889ec9549808269466154e0ed98e815415dae1adb81dfe909efbd": {
+    "query": "gathered waist flared skirt dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "gathered waist flared skirt dress",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8900234229995476,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"index_group_name\": \"divided\", \"colour_family\": \"beige\"}, \"soft_intent\": \"gathered waist flared skirt dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "d6d8ba91c76c838b9ad4cebf3794fbe518cb4fea8efe438992180c73f386e72d": {
+    "query": "soft cotton cardigan with embroidery",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "soft cotton cardigan with embroidery",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.943152228999679,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"index_group_name\": \"other accessories\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"soft cotton cardigan with embroidery\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  "18290d4454ce7ffe001c7e1d882b1223be3fdb54422b2373cca30047099cb3aa": {
+    "query": "stretch twill shorts with laces",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "stretch twill shorts with laces",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7679095960002087,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"stretch twill shorts with laces\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "d9fc4c0c08d1ac915da0584cdd9bd10604d8137645c2b23acc8393f3442abad5": {
+    "query": "stretch cotton twill sleeveless dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "stretch cotton twill sleeveless dress",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.805912559000717,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"stretch cotton twill sleeveless dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "72319923280613dbd8cd48f2dde8cdcb84edb391c99d9738650b46f436bdb1bd": {
+    "query": "soft cotton cropped top with straps",
+    "filters": {},
+    "soft_intent": "",
+    "dropped": [],
+    "ok": false,
+    "llm_seconds": 3.2061358439996184,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"cotton\", \"index_group_name\": \"divided\", \"soft_intent\": \"soft\", \"strap\"}, \"soft_intent\": \"soft cotton cropped top with straps\"}",
+    "evidence": {}
+  },
+  "55a2e0a1ebe24c7f5f3e58c450c22d46f0946544812c750bb33051a894fe74cb": {
+    "query": "swimsuit low cut back removable cups",
+    "filters": {
+      "product_type_name": "Swimsuit"
+    },
+    "soft_intent": "low cut back removable cups swimsuit",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8554572440007178,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Swimsuit\"}, \"evidence\": {\"product_type_name\": \"swimsuit\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"low cut back removable cups swimsuit\"}",
+    "evidence": {
+      "product_type_name": "swimsuit"
+    }
+  },
+  "0c0cdb01a0862dde1c6de2f8fadc0e5164c599684c775e0b40cfc7bb543c5d4c": {
+    "query": "soft cotton top dolman sleeves",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "soft cotton top with dolman sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.623557267000251,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"cotton\", \"index_group_name\": \"divided\", \"soft_intent\": \"soft\", \"product_type_name\": \"dolman sleeves\"}, \"soft_intent\": \"soft cotton top with dolman sleeves\"}",
+    "evidence": {
+      "product_type_name": "dolman sleeves"
+    }
+  },
+  "069267431c681531e8da533a56f0cd83444c5fe2ab09e1feaee515b221abf788": {
+    "query": "lined padded jacket polyester",
+    "filters": {
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "lined padded jacket polyester",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.66214169199975,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"lined padded jacket polyester\"}",
+    "evidence": {
+      "product_type_name": "jacket"
+    }
+  },
+  "2644d6737575351dc6babd065b3c17d926ae4ff99f9443d6733906fa7426e3a7": {
+    "query": "lace bra mesh cups adjustable straps",
+    "filters": {
+      "product_type_name": "Bra"
+    },
+    "soft_intent": "",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7220074130000285,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bra\"}, \"evidence\": {\"product_type_name\": \"bra\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"lace bra with mesh cups and adjustable straps\"}}",
+    "evidence": {
+      "product_type_name": "bra"
+    }
+  },
+  "4f6c2d5fa198bcbc62c4081feb8fb13658d7b7b683fece8d1be3949acee05b43": {
+    "query": "low waist lined bikini bottoms",
+    "filters": {},
+    "soft_intent": "low waist lined bikini bottoms",
+    "dropped": [
+      [
+        "index_group_name",
+        "Bikini top",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Bottoms",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.068541890999768,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Bikini top\", \"product_type_name\": \"Bottoms\"}, \"evidence\": {\"product_type_name\": \"bottoms\", \"index_group_name\": \"bikini top\", \"colour_family\": \"black\"}, \"soft_intent\": \"low waist lined bikini bottoms\"}",
+    "evidence": {}
+  },
+  "689c8f8214e41ea5eb0ff83034576ac3dc4257748d43cd1936bc4504cf7a04d5": {
+    "query": "wide ribbed sweater with wrist cuffs and side slits",
+    "filters": {
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "wide ribbed sweater with wrist cuffs and side slits",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.194853863999924,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"None specified\", \"index_group_name\": \"None specified\"}, \"soft_intent\": \"wide ribbed sweater with wrist cuffs and side slits\"}",
+    "evidence": {
+      "product_type_name": "sweater"
+    }
+  },
+  "e63be14c283318a9de6bb44b967d46699e82d6a648690b4d1177ef73b6b285ce": {
+    "query": "viscose drawstring trousers with pockets",
+    "filters": {},
+    "soft_intent": "viscose drawstring trousers with pockets",
+    "dropped": [
+      [
+        "product_type_name",
+        "Drawstring Trainers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.7652327310006513,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Drawstring Trainers\"}, \"evidence\": {\"product_type_name\": \"drawstring trainers\", \"colour_family\": \"viscose\"}, \"soft_intent\": \"viscose drawstring trousers with pockets\"}",
+    "evidence": {}
+  },
+  "8a9c45eadbce4ab1b56de6388493b3371a6c779e073b9c09160617245ace0c8b": {
+    "query": "adjustable suit pants with pockets",
+    "filters": {},
+    "soft_intent": "adjustable suit pants with pockets",
+    "dropped": [
+      [
+        "product_type_name",
+        "Suit pants",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.5860251650001373,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Suit pants\"}, \"evidence\": {\"product_type_name\": \"suit pants\", \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"adjustable suit pants with pockets\"}",
+    "evidence": {}
+  },
+  "b80a48b8e00d8cc10842769f45db696d98d6b592f707a5d420e08dd20ebe3747": {
+    "query": "soft wool knit pants with pockets",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "soft wool knit pants with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.753213835999304,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Pants\"}, \"evidence\": {\"product_type_name\": \"pants\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"soft wool knit pants with pockets\"}",
+    "evidence": {
+      "product_type_name": "pants"
+    }
+  },
+  "dc30a2e76e573316e3705083cbe305300854a44847a6f09682bed31dc77da97c": {
+    "query": "cotton shorts with pockets",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "cotton shorts with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.4565159530002347,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null}, \"soft_intent\": \"cotton shorts with pockets\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "a6932ced64684bcd7749f101b6482268af356e9b1ac0b02539798ba469e6ac93": {
+    "query": "adjustable sandals TPR soles",
+    "filters": {
+      "product_type_name": "Sandals"
+    },
+    "soft_intent": "adjustable sandals with TPR soles",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8125385280000046,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sandals\"}, \"evidence\": {\"product_type_name\": \"sandals\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"adjustable sandals with TPR soles\"}",
+    "evidence": {
+      "product_type_name": "sandals"
+    }
+  },
+  "18e25b33e3d17a7ab0a8c227a5d14446bda1a544139ef254f592ea799ba0d815": {
+    "query": "stretch wool trousers with pockets",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "stretch wool trousers with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7858071770006063,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"stretch wool trousers with pockets\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "24baefbb24b073148cddde8a5d799309762bfff59f3ec69c0d758e6e03f7cce6": {
+    "query": "organic cotton trunks mid-length",
+    "filters": {},
+    "soft_intent": "organic cotton trunks mid-length",
+    "dropped": [
+      [
+        "index_group_name",
+        "Garment Set",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Trunks",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1243343910000476,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Garment Set\", \"product_type_name\": \"Trunks\"}, \"evidence\": {\"product_type_name\": \"trunks\", \"index_group_name\": \"garment set\", \"colour_family\": \"organic cotton\"}, \"soft_intent\": \"organic cotton trunks mid-length\"}",
+    "evidence": {}
+  },
+  "71cd5269f76903168d6b0117209ba541c3c8d7c980c5f2cb061193a306f4189b": {
+    "query": "Chiffon blouse with ties and flounces",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "Chiffon blouse with ties and flounces",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7057797870002105,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"chiffon\"}, \"soft_intent\": \"Chiffon blouse with ties and flounces\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "6cee7b5a5aae20a9fa323daebfe0d646a2ee588b22839deae4b623e41c54efb6": {
+    "query": "printed tulle dress with embroidery",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "printed tulle dress with embroidery",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8659191380002085,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"tulle\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"printed tulle dress with embroidery\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "b344a80f74b0e756a00f892002db180d5ee68f3f53b0c4838743dce0b84fd63e": {
+    "query": "imitation leather sandals women's",
+    "filters": {
+      "product_type_name": "Sandals"
+    },
+    "soft_intent": "imitation leather sandals women's",
+    "dropped": [
+      [
+        "index_group_name",
+        "Women'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.738030188999801,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Women'swear\", \"product_type_name\": \"Sandals\"}, \"evidence\": {\"product_type_name\": \"sandals\", \"index_group_name\": \"women's\"}, \"soft_intent\": \"imitation leather sandals women's\"}",
+    "evidence": {
+      "product_type_name": "sandals"
+    }
+  },
+  "204625c450c1a6fa403c9018753825c0cec7986f13dc33c1574e52616100b58e": {
+    "query": "soft viscose top with lace flounce",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "soft viscose top with lace flounce",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.962242687000071,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"viscose\", \"index_group_name\": \"other accessory\"}, \"soft_intent\": \"soft viscose top with lace flounce\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "f72d895217b70df0381805d6561b45dfacf473ca07b03d8b8c6d5c74cd1fcf15": {
+    "query": "slub cotton t-shirt with pocket",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "slub cotton t-shirt with pocket",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.952175315999739,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"cotton\", \"index_group_name\": \"slub\"}, \"soft_intent\": \"slub cotton t-shirt with pocket\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "334a19a7b16799df17252276813d89d768d4f71a5caa0d81e726032a02973ea0": {
+    "query": "jacquard high waist trousers",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "high waist jacquard trousers",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1453668160002053,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"index_group_name\": \"ladieswear\", \"colour_family\": \"jacquard\"}, \"soft_intent\": \"high waist jacquard trousers\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "23ff33cbfd39c0de57e60038537add44f0d6c16e4465023bb783414efd5bfa5d": {
+    "query": "stretch weave trousers with pockets",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "stretch weave trousers with pockets",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7637562350000735,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"stretch weave trousers with pockets\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "b8a8ab19d6383e0b7856afcd671e84c105574df7c9d7980bce7d8fa66bc7cae0": {
+    "query": "imitation leather trainers lace up",
+    "filters": {},
+    "soft_intent": "imitation leather trainers lace up",
+    "dropped": [
+      [
+        "product_type_name",
+        "Trainers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.180336458999591,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trainers\"}, \"evidence\": {\"product_type_name\": \"trainers\", \"colour_family\": \"imitation leather\", \"index_group_name\": \"menswear\", \"style\": \"lace up\"}, \"soft_intent\": \"imitation leather trainers lace up\"}",
+    "evidence": {}
+  },
+  "5a451607f5bb1dda754f9dd02c59d4664f75dcb75f39ca5d6f8dfce412e72b4f": {
+    "query": "lined triangle bikini top adjustable straps",
+    "filters": {
+      "product_type_name": "Bikini top"
+    },
+    "soft_intent": "lined triangle bikini top adjustable straps",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.853187106000405,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bikini top\"}, \"evidence\": {\"product_type_name\": \"bikini top\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"lined triangle bikini top adjustable straps\"}",
+    "evidence": {
+      "product_type_name": "bikini top"
+    }
+  },
+  "2410594980af1752eed3ff62448e3c40daad23d8a87e04af00ca3c6756d49e25": {
+    "query": "long sleeve polo neck top",
+    "filters": {},
+    "soft_intent": "long sleeve polo neck top",
+    "dropped": [
+      [
+        "product_type_name",
+        "Polo shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.910168125000382,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Polo shirt\"}, \"evidence\": {\"product_type_name\": \"polo shirt\", \"index_group_name\": \"menswear\", \"colour_family\": \"neutral\"}, \"soft_intent\": \"long sleeve polo neck top\"}",
+    "evidence": {}
+  },
+  "e669c4d7c83fa91959a357d7219741738dbec77d35eaa7cbd8767dc11d25acf1": {
+    "query": "lace underwire bra adjustable straps",
+    "filters": {
+      "product_type_name": "Bra"
+    },
+    "soft_intent": "lace underwire bra adjustable straps",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6752385580002738,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Bra\"}, \"evidence\": {\"product_type_name\": \"bra\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"lace underwire bra adjustable straps\"}",
+    "evidence": {
+      "product_type_name": "bra"
+    }
+  },
+  "49556340760263efdc406959066988799b240092aec1b925e55a62665bd8ef88": {
+    "query": "sweatshirt with dropped shoulders long sleeves",
+    "filters": {},
+    "soft_intent": "sweatshirt with dropped shoulders long sleeves",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sweatshirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.3433321290003732,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweatshirt\"}, \"evidence\": {\"product_type_name\": \"sweatshirt\", \"colour_family\": null, \"index_group_name\": null, \"style\": \"dropped shoulders long sleeves\"}, \"soft_intent\": \"sweatshirt with dropped shoulders long sleeves\"}",
+    "evidence": {}
+  },
+  "e3fef0410f8eb137c2ceea0afee7b87b7ad796ceb13ecca2b655ed757fc33429": {
+    "query": "organic cotton round neck T shirts",
+    "filters": {},
+    "soft_intent": "organic cotton round neck T shirts",
+    "dropped": [
+      [
+        "product_type_name",
+        "T-shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.5558581200002664,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"Organic Cotton\"}, \"soft_intent\": \"organic cotton round neck T shirts\"}",
+    "evidence": {}
+  },
+  "000c9104095ff9d6128e1c5640770940b5ca25666f8cbdf5b1ad85cfb9f5c265": {
+    "query": "softly draping jersey kaftan deep V-neck",
+    "filters": {},
+    "soft_intent": "softly draping jersey kaftan deep V-neck",
+    "dropped": [
+      [
+        "index_group_name",
+        "Garment Set",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Kaftan",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.4141860359995917,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Garment Set\", \"product_type_name\": \"Kaftan\"}, \"evidence\": {\"product_type_name\": \"kaftan\", \"index_group_name\": \"garment set\", \"colour_family\": \"deep v-neck\"}, \"soft_intent\": \"softly draping jersey kaftan deep V-neck\"}",
+    "evidence": {}
+  },
+  "4c41457023052e250fd29bc4bb8c55ec3a51e6c91a1538cccfcc55ad9261bb67": {
+    "query": "cotton poplin joggers with pockets",
+    "filters": {},
+    "soft_intent": "cotton poplin joggers with pockets",
+    "dropped": [
+      [
+        "product_type_name",
+        "Joggers",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.076763975999711,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Joggers\"}, \"evidence\": {\"product_type_name\": \"joggers\", \"colour_family\": \"cotton\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"cotton poplin joggers with pockets\"}",
+    "evidence": {}
+  },
+  "a66b9c15e49a9e1a833152bc58871ffcf288ec4e8db292add31522e6bbde5315": {
+    "query": "washed cotton jeans high waist recycled denim",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed cotton jeans high waist recycled denim",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1031331389995103,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"index_group_name\": \"ladieswear\", \"colour_family\": \"cotton\"}, \"soft_intent\": \"washed cotton jeans high waist recycled denim\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "0aaf12c560e21be1f3424d803ae0df358a39d8aea4aeff92c7be7be5fdf7cd59": {
+    "query": "cotton blouse with frill cuffs",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "cotton blouse with frill cuffs",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.596032450000166,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"Cotton\"}, \"soft_intent\": \"cotton blouse with frill cuffs\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "5e715f76c63cba3e5e062e73e08f94d3cb2aecdf64f6b6c5f10822b4bcd201cf": {
+    "query": "patterned stretch cotton satin trousers",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "patterned stretch cotton satin trousers",
+    "dropped": [
+      [
+        "colour_family",
+        "Stretch Cotton Satin",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8218848380001873,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Stretch Cotton Satin\", \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"stretch cotton satin\"}, \"soft_intent\": \"patterned stretch cotton satin trousers\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "96bd937a1cbe10e0e4ecde407e7867abbcff81683d0de3296392a3d7a305b252": {
+    "query": "long sleeve printed jersey tops",
+    "filters": {},
+    "soft_intent": "long sleeve printed jersey tops",
+    "dropped": [
+      [
+        "product_type_name",
+        "Jersey Top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.766888641999685,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jersey Top\"}, \"evidence\": {\"product_type_name\": \"jersey top\", \"index_group_name\": \"\", \"colour_family\": \"\"}, \"soft_intent\": \"long sleeve printed jersey tops\"}",
+    "evidence": {}
+  },
+  "b1325933024c0a94968c8d6c29328a6fc9bc01283d72ebfe4d01a402d9316f8e": {
+    "query": "pima cotton gather top 3/4 sleeves",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "pima cotton gather top 3/4 sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.4815768029993706,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"gather top\", \"colour_family\": \"pima cotton\", \"index_group_name\": \"women's\", \"size\": \"3/4 sleeves\"}, \"soft_intent\": \"pima cotton gather top 3/4 sleeves\"}",
+    "evidence": {
+      "product_type_name": "gather top"
+    }
+  },
+  "b9a0a45084736c158fe0bce52d523fd252e29c685670e919f86046c284618f34": {
+    "query": "slub linen t-shirt long sleeves",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "slub linen t-shirt long sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9693841329999486,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"linen\", \"index_group_name\": \"baby/children\"}, \"soft_intent\": \"slub linen t-shirt long sleeves\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "2c3c2f531934ab8595443ffd2b24e0d7581c43101285b937e8a5b28f86c83c9b": {
+    "query": "printed swimsuit narrow straps back strap",
+    "filters": {
+      "product_type_name": "Swimsuit"
+    },
+    "soft_intent": "printed swimsuit narrow straps back strap",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.345574301999477,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Swimsuit\"}, \"evidence\": {\"product_type_name\": \"swimsuit\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"printed with narrow straps back strap\"}, \"soft_intent\": \"printed swimsuit narrow straps back strap\"}",
+    "evidence": {
+      "product_type_name": "swimsuit"
+    }
+  },
+  "f62df5bb68f5119fa0189a1975313c0046a037827bc455e19c4bf923441bbb87": {
+    "query": "organic cotton shorts with drawstring waist",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "organic cotton shorts with drawstring waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7718369880003593,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"organic cotton shorts with drawstring waist\"}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "6eea8d695779676e250612c03b45e87546ee241e2231420d632410261af88d18": {
+    "query": "premium cotton long sleeve polo shirt",
+    "filters": {
+      "product_type_name": "Polo shirt"
+    },
+    "soft_intent": "premium cotton long sleeve polo shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.86375250600031,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Polo shirt\"}, \"evidence\": {\"product_type_name\": \"polo shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"premium cotton long sleeve polo shirt\"}",
+    "evidence": {
+      "product_type_name": "polo shirt"
+    }
+  },
+  "2ec9a21b57d7ffbab4867b0ac1f8f67584bbe6f6b55a418116ac24d1ebad6046": {
+    "query": "lace bikini top with pendant",
+    "filters": {
+      "product_type_name": "Bikini top"
+    },
+    "soft_intent": "lace bikini top with pendant",
+    "dropped": [
+      [
+        "index_group_name",
+        "Bikini top",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.7965236959998947,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Bikini top\", \"product_type_name\": \"Bikini top\"}, \"evidence\": {\"product_type_name\": \"bikini top\", \"index_group_name\": \"laces\"}, \"soft_intent\": \"lace bikini top with pendant\"}",
+    "evidence": {
+      "product_type_name": "bikini top"
+    }
+  },
+  "91f67e7c48ac5fd92bf55df3732be2dee4f78944878169d87ed94613c810f2b3": {
+    "query": "soft cotton jacquard socks sizes 3-9",
+    "filters": {},
+    "soft_intent": "soft cotton jacquard socks sizes 3-9",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.420643471999938,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": \"cotton\", \"index_group_name\": \"jacquard\", \"size\": \"3-9\"}, \"soft_intent\": \"soft cotton jacquard socks sizes 3-9\"}",
+    "evidence": {}
+  },
+  "abf283e59c26e226feacbe16abe1e8c286b3233f293a128023f0d3be8f8b8788": {
+    "query": "grained leather waist belt with round buckle",
+    "filters": {},
+    "soft_intent": "grain leather waist belt with round buckle",
+    "dropped": [
+      [
+        "product_type_name",
+        "Waist Belt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9740581229998497,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Waist Belt\"}, \"evidence\": {\"product_type_name\": \"waist belt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"grain leather waist belt with round buckle\"}",
+    "evidence": {}
+  },
+  "7b86380dd15453e756654854146926f051a23799a591fc5fbf1b0917241f8eb2": {
+    "query": "printed cotton pyjamas shorts tops",
+    "filters": {},
+    "soft_intent": "printed cotton pyjamas shorts tops",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8957850289998532,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"printed cotton pyjamas shorts tops\"}",
+    "evidence": {}
+  },
+  "066c69b95e814c85e51a3353cafc8a4182a4b274e4d35a4b3f4a9fd7d21ec1d4": {
+    "query": "premium cotton t-shirts",
+    "filters": {},
+    "soft_intent": "premium cotton t-shirts",
+    "dropped": [
+      [
+        "product_type_name",
+        "T-Shirt",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.674256516999776,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"premium cotton t-shirts\"}",
+    "evidence": {}
+  },
+  "e71db480900a0ba7aecab7327668b49682f2dd4478453500ae0a3732f41f8656": {
+    "query": "cotton crêpe knee length wrap dress",
+    "filters": {},
+    "soft_intent": "cotton crêpe knee length wrap dress",
+    "dropped": [
+      [
+        "product_type_name",
+        "Wrap Dress",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.1881834249998064,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Wrap Dress\"}, \"evidence\": {\"product_type_name\": \"wrap dress\", \"colour_family\": \"Cotton Crêpe\", \"index_group_name\": \"Women's Wear\"}, \"soft_intent\": \"cotton crêpe knee length wrap dress\"}",
+    "evidence": {}
+  },
+  "52ceec8eb89f16d0932a3bba8bfb3c46d08813d415811c0efc3337f259358642": {
+    "query": "patterned viscose jumpsuit with straps pockets",
+    "filters": {},
+    "soft_intent": "patterned viscose jumpsuit with straps pockets",
+    "dropped": [
+      [
+        "index_group_name",
+        "Jumpsuit/Playsuit",
+        "invalid_value_or_evidence"
+      ],
+      [
+        "product_type_name",
+        "Jumpsuit",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.984732844000064,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Jumpsuit/Playsuit\", \"product_type_name\": \"Jumpsuit\"}, \"evidence\": {\"product_type_name\": \"jumpsuit\", \"colour_family\": null, \"index_group_name\": \"viscose\", \"pattern\": \"patterned\", \"pockets\": \"straps\"}, \"soft_intent\": \"patterned viscose jumpsuit with straps pockets\"}",
+    "evidence": {}
+  },
+  "1c771e8df269bdd70cbecab641c0a973296841e81fdc3cd41f30f1f2fdeaca43": {
+    "query": "lightweight sweatshirt round neck oversized shirt",
+    "filters": {},
+    "soft_intent": "lightweight sweatshirt round neck oversized shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9330050580001625,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"lightweight sweatshirt round neck oversized shirt\"}",
+    "evidence": {}
+  },
+  "d4ccf99734328b380bd7e73a0997cd14809e384bdda621887b4f58b28e61f3d6": {
+    "query": "washed superstretch jeans with embroidery",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "washed superstretch jeans with embroidery",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.944500947999586,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Jeans\"}, \"evidence\": {\"product_type_name\": \"jeans\", \"colour_family\": \"superstretch\", \"index_group_name\": \"Men'swear\"}, \"soft_intent\": \"washed superstretch jeans with embroidery\"}",
+    "evidence": {
+      "product_type_name": "jeans"
+    }
+  },
+  "af1fbcb8fa8a67179facefc938e214af38eca5c2bb688b993555e428349871b6": {
+    "query": "metallic shimmering t-shirt with slits",
+    "filters": {
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "metallic shimmering t-shirt with slits",
+    "dropped": [
+      [
+        "colour_family",
+        "Shimmering",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.86600331200043,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Shimmering\", \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"shimmering\"}, \"soft_intent\": \"metallic shimmering t-shirt with slits\"}",
+    "evidence": {
+      "product_type_name": "t-shirt"
+    }
+  },
+  "7e23f525a6a132d112d4415bda8a12f05015211a452fb0b0e35c156b22ed811a": {
+    "query": "cotton sweatshirt dress with hood",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7497463340005197,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"Cotton\", \"index_group_name\": \"Women's wear\", \"style\": \"hooded\"}}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "a2d49621b46a1359e69ceb6e75ba32122e68eed601970ed34a396e089a3f9d80": {
+    "query": "sweatshirt top with zip dropped shoulders",
+    "filters": {
+      "product_type_name": "Top"
+    },
+    "soft_intent": "sweatshirt top with zip dropped shoulders",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8442763289995128,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Top\"}, \"evidence\": {\"product_type_name\": \"top\", \"colour_family\": \"null\", \"index_group_name\": \"null\"}, \"soft_intent\": \"sweatshirt top with zip dropped shoulders\"}",
+    "evidence": {
+      "product_type_name": "top"
+    }
+  },
+  "effd8b12ddefbb64cdca0f0784849680002cdb1c7dea738588db706e773b31bd": {
+    "query": "mulberry silk knee length skirt lined",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "mulberry silk knee length skirt lined",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.89665444900038,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"Mulberry\", \"index_group_name\": \"Silk\"}, \"soft_intent\": \"mulberry silk knee length skirt lined\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  "991d0be187b35cfa91a50b39b505b9e05e0a048c97cc53e8ab23caa58dadf85a": {
+    "query": "round neck flounce sleeve dress",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "round neck flounce sleeve divided dress",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.926604325999506,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"index_group_name\": \"divided\", \"colour_family\": \"beige\"}, \"soft_intent\": \"round neck flounce sleeve divided dress\"}",
+    "evidence": {
+      "product_type_name": "dress"
+    }
+  },
+  "a75ed8acfb04e32808d0f50e6d8c6bc3df87e460b2aa11dbd4467d675fce4af9": {
+    "query": "cotton shirt with chest pocket",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "cotton shirt with chest pocket",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.68978312299987,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cotton shirt with chest pocket\"}",
+    "evidence": {
+      "product_type_name": "shirt"
+    }
+  },
+  "cff417f3faa4125aa0585c726ae886c271f8395417d681540aeed27ae9a70498": {
+    "query": "white sneakers for everyday walking",
+    "filters": {
+      "colour_family": "White",
+      "product_type_name": "Sneakers"
+    },
+    "soft_intent": "white sneakers for everyday walking",
+    "dropped": [
+      [
+        "index_group_name",
+        "Menswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9971538150002743,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": \"Menswear\", \"product_type_name\": \"Sneakers\"}, \"evidence\": {\"product_type_name\": \"sneakers\", \"colour_family\": \"white\", \"index_group_name\": \"menswear\"}, \"soft_intent\": \"white sneakers for everyday walking\"}",
+    "evidence": {
+      "colour_family": "white",
+      "product_type_name": "sneakers"
+    }
+  },
+  "745c5fe2649a4f4c9dea8db32d2419bf4ad1e46d440583ae03ec3b055fc95ba7": {
+    "query": "black leather boots with a low heel",
+    "filters": {
+      "colour_family": "Black",
+      "product_type_name": "Boots"
+    },
+    "soft_intent": "black leather boots with a low heel",
+    "dropped": [
+      [
+        "index_group_name",
+        "Menswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0028450890004024,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": \"Menswear\", \"product_type_name\": \"Boot\"}, \"evidence\": {\"product_type_name\": \"boot\", \"colour_family\": \"black\", \"index_group_name\": \"menswear\"}, \"soft_intent\": \"black leather boots with a low heel\"}",
+    "evidence": {
+      "colour_family": "black",
+      "product_type_name": "boots"
+    }
+  },
+  "f1363aac194faa355fb53dd7d28022856426ac92998b2cf19a63f3b2ec6de26e": {
+    "query": "blue loose cotton trousers for weekends",
+    "filters": {
+      "colour_family": "Blue",
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "blue loose cotton trousers for weekends",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.085307329999523,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"blue\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"blue loose cotton trousers for weekends\"}",
+    "evidence": {
+      "colour_family": "blue",
+      "product_type_name": "trousers"
+    }
+  },
+  "548e3303d9e07ffaf92eb6554f922966e21d22cbe254cc18d47cef47fb70c3c9": {
+    "query": "red long-sleeved dress for an evening out",
+    "filters": {
+      "colour_family": "Red",
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "red long-sleeved dress for an evening out",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.69392554299975,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"red\"}, \"soft_intent\": \"red long-sleeved dress for an evening out\"}",
+    "evidence": {
+      "colour_family": "red",
+      "product_type_name": "dress"
+    }
+  },
+  "59ae5ba32b2538bed9f3f2210c962c77e7d2b950d7ba890c730c2d6c298e60f9": {
+    "query": "green button-up shirt for a casual lunch",
+    "filters": {
+      "colour_family": "Green",
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "for a casual lunch",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.409526105000623,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": \"green\"}, \"soft_intent\": \"for a casual lunch\"}",
+    "evidence": {
+      "colour_family": "green",
+      "product_type_name": "shirt"
+    }
+  },
+  "811e3aa2b10648003764cf735345093e3e6e6af2ad452415f3cc751bf2841b63": {
+    "query": "pink cotton T-shirt with a relaxed fit",
+    "filters": {
+      "colour_family": "Pink",
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "relaxed fit pink cotton t-shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6132541229999333,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Pink\", \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"pink\"}, \"soft_intent\": \"relaxed fit pink cotton t-shirt\"}",
+    "evidence": {
+      "colour_family": "pink",
+      "product_type_name": "t-shirt"
+    }
+  },
+  "e186af57c3126aa83a25d3230b607891469b93f4f6fc346e0ad0bcb2e93f89f4": {
+    "query": "grey zip-up hoodie with pockets",
+    "filters": {
+      "colour_family": "Grey",
+      "product_type_name": "Hoodie"
+    },
+    "soft_intent": "",
+    "dropped": [
+      [
+        "index_group_name",
+        "Men'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8079502519995003,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Grey\", \"index_group_name\": \"Men'swear\", \"product_type_name\": \"Hoodie\"}, \"evidence\": {\"product_type_name\": \"hoodie\", \"colour_family\": \"grey\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"\"}",
+    "evidence": {
+      "colour_family": "grey",
+      "product_type_name": "hoodie"
+    }
+  },
+  "c613bfdcd5bfa9807f2558395416b8044a2e3c3ecfbada63eab0edae61c4d454": {
+    "query": "beige knitted sweater for layering",
+    "filters": {
+      "colour_family": "Beige",
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "layering beige knitted sweater",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6786514820005323,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Beige\", \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"beige\"}, \"soft_intent\": \"layering beige knitted sweater\"}",
+    "evidence": {
+      "colour_family": "beige",
+      "product_type_name": "sweater"
+    }
+  },
+  "c38a9df19608afd97f90353cfb1bd8e5f848d9886b9ea9991f1d3ddbf8f8cb40": {
+    "query": "black knee-length skirt for work",
+    "filters": {
+      "colour_family": "Black",
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "black knee-length skirt for work",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9908455240001786,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"black\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"black knee-length skirt for work\"}",
+    "evidence": {
+      "colour_family": "black",
+      "product_type_name": "skirt"
+    }
+  },
+  "f3ab93c1e26a387f45c092793cf6590bba50f3d68a1dec5636b8caf9ed3c9de5": {
+    "query": "white lightweight blouse with long sleeves",
+    "filters": {
+      "colour_family": "White",
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "white lightweight blouse with long sleeves",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2983548000001974,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"white\", \"index_group_name\": \"ladieswear\", \"style\": \"lightweight\"}, \"soft_intent\": \"white lightweight blouse with long sleeves\"}",
+    "evidence": {
+      "colour_family": "white",
+      "product_type_name": "blouse"
+    }
+  },
+  "136b47d85d1dccf2f7426a2c0388933d3c96e76beb54730ad7075c5922180c55": {
+    "query": "blue tailored shorts with side pockets",
+    "filters": {
+      "colour_family": "Blue",
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "blue tailored shorts with side pockets",
+    "dropped": [
+      [
+        "index_group_name",
+        "Tailored Waistcoat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.114271911000287,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": \"Tailored Waistcoat\", \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": \"blue\", \"index_group_name\": \"tailored waistcoat\"}, \"soft_intent\": \"blue tailored shorts with side pockets\"}",
+    "evidence": {
+      "colour_family": "blue",
+      "product_type_name": "shorts"
+    }
+  },
+  "1b6e5f8653138d7ffcf8d2cfe636c7ea03a5d32126d741b293542437c05859e0": {
+    "query": "red soft cardigan with buttons",
+    "filters": {
+      "colour_family": "Red",
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "red soft cardigan with buttons",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9336221319999822,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"colour_family\": \"red\", \"index_group_name\": \"other accessories\"}, \"soft_intent\": \"red soft cardigan with buttons\"}",
+    "evidence": {
+      "colour_family": "red",
+      "product_type_name": "cardigan"
+    }
+  },
+  "6d98a53f21d3a408d328d2e341b0dfd2c29a4c976c268669cff6972610031e7d": {
+    "query": "green lightweight jacket with a hood",
+    "filters": {
+      "colour_family": "Green",
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "lightweight green jacket with a hood",
+    "dropped": [
+      [
+        "index_group_name",
+        "Men'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.066925615999935,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": \"Men'swear\", \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": \"green\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"lightweight green jacket with a hood\"}",
+    "evidence": {
+      "colour_family": "green",
+      "product_type_name": "jacket"
+    }
+  },
+  "aa0045f99560898ba3c9526961bb86903097115311a90052aed379a5ee9512d3": {
+    "query": "yellow plain cotton socks",
+    "filters": {
+      "colour_family": "Yellow"
+    },
+    "soft_intent": "plain cotton yellow socks",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.419523399999889,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Yellow\", \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": \"yellow\"}, \"soft_intent\": \"plain cotton yellow socks\"}",
+    "evidence": {
+      "colour_family": "yellow"
+    }
+  },
+  "f70d461dcacb6437e336b43a870c75d5c44286ff18e6e1d18eabc218e87b2fda": {
+    "query": "purple flowing dress with short sleeves",
+    "filters": {
+      "colour_family": "Purple",
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "flowing dress with short sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.490722085000016,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Purple\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"purple\"}, \"soft_intent\": \"flowing dress with short sleeves\"}",
+    "evidence": {
+      "colour_family": "purple",
+      "product_type_name": "dress"
+    }
+  },
+  "1987a52dbb2e6cfdf679d8b6f822e215e0e0ca3ea29e1d31d4df18d7b6c06767": {
+    "query": "orange loose trousers with a drawstring waist",
+    "filters": {
+      "colour_family": "Orange",
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "orange loose trousers with a drawstring waist",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2491807189999236,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Orange\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"orange\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"orange loose trousers with a drawstring waist\"}",
+    "evidence": {
+      "colour_family": "orange",
+      "product_type_name": "trousers"
+    }
+  },
+  "74c6b7b723d1d5100fa4e349e5bca9c21e232f7af519760d6d98b64afd086084": {
+    "query": "cotton trousers with a straight leg",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "cotton trousers with a straight leg",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8713211149997733,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cotton trousers with a straight leg\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  "682ae490035b89db470fbfbea237f5f4137064d392a2d42d5bde89f236d05fc1": {
+    "query": "pleated midi skirt for a family gathering",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "pleated midi skirt for a family gathering",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.94870791700032,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"None\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"pleated midi skirt for a family gathering\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  "18025d9d2c29ed15494cb2ae82ed5dce680ae8033bc4678e5819e2d2a1ada7f3": {
+    "query": "soft wool sweater with a round neckline",
+    "filters": {
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "soft wool sweater with a round neckline",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9448844750004355,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"wool\", \"index_group_name\": \"other\"}, \"soft_intent\": \"soft wool sweater with a round neckline\"}",
+    "evidence": {
+      "product_type_name": "sweater"
+    }
+  },
+  "33981c4e0af02c08af2c196c54f22f999e5c791872c9ae6863a7cdebd892ebe1": {
+    "query": "cropped hoodie with a front zip",
+    "filters": {
+      "product_type_name": "Hoodie"
+    },
+    "soft_intent": "cropped hoodie with a front zip",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.845448703999864,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Hoodie\"}, \"evidence\": {\"product_type_name\": \"hoodie\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cropped hoodie with a front zip\"}",
+    "evidence": {
+      "product_type_name": "hoodie"
+    }
+  },
+  "3f62797a1e476a820ceb65457e0ae6ad7078b59c6fecea91e3da9527a8f5ff09": {
+    "query": "lightweight cardigan for air-conditioned rooms",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "lightweight cardigan for air-conditioned rooms",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.085230802999831,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"index_group_name\": \"other accessories\", \"colour_family\": \"lightweight\"}, \"soft_intent\": \"lightweight cardigan for air-conditioned rooms\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  "fa58a35dc3b841aafb8fd4464ca386ffca3a30a339f133cf9322d8478c254aa9": {
+    "query": "linen shirt with rolled sleeves",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "linen shirt with rolled sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7985075739998138,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": \"linen\", \"index_group_name\": \"other\"}, \"soft_intent\": \"linen shirt with rolled sleeves\"}",
+    "evidence": {
+      "product_type_name": "shirt"
+    }
+  },
+  "53f4748384f013421830775c34d50d5f364ad3ef66a102c57de62d598c2919a2": {
+    "query": "sleeveless blouse with a high neckline",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "sleeveless blouse with a high neckline",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.224769703000675,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": null, \"index_group_name\": null, \"neckline\": \"high\"}, \"soft_intent\": \"sleeveless blouse with a high neckline\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  "5895efb9a784dfa39b23f8275d0dd027dae37c02364e1fd28455f476cbb2088e": {
+    "query": "comfortable shorts with an elastic waist",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.763582628000222,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"comfortable with an elastic waist\"}}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  "6f5a6cae32e325c0fbd8e6e0ea21e1fdf9dd0b657cfc69a64c63db2b9ca64a3d": {
+    "query": "leather boots with a sturdy sole",
+    "filters": {
+      "product_type_name": "Boots"
+    },
+    "soft_intent": "leather boots with a sturdy sole",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6730881280000176,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Boot\"}, \"evidence\": {\"product_type_name\": \"boot\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"leather boots with a sturdy sole\"}",
+    "evidence": {
+      "product_type_name": "boots"
+    }
+  },
+  "5b3b08e26cbcf8be5f41c5efd8c2084f9b901f2513ecae033edcac42fb10c289": {
+    "query": "breathable sneakers for city walks",
+    "filters": {
+      "product_type_name": "Sneakers"
+    },
+    "soft_intent": "breathable sneakers for city walks",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8268368899998677,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sneakers\"}, \"evidence\": {\"product_type_name\": \"sneakers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"breathable sneakers for city walks\"}",
+    "evidence": {
+      "product_type_name": "sneakers"
+    }
+  },
+  "5d6182584ba0bececa420526e0340bb1b2fe0e794bdbe5cb2cdc4ed13e4f1882": {
+    "query": "ankle socks for daily wear",
+    "filters": {},
+    "soft_intent": "ankle socks for daily wear",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.7248565280006005,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"ankle socks for daily wear\"}",
+    "evidence": {}
+  },
+  "21f0670257489668322e5b0b517019e7a408758403e995ce5e0a7d0dc0de12d3": {
+    "query": "long dress with a gathered waist",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "long dress with a gathered waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0572437220007487,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Long Dress\"}, \"soft_intent\": \"long dress with a gathered waist\"}",
+    "evidence": {
+      "product_type_name": "Long Dress"
+    }
+  },
+  "54a7b6881b84d50288911d9c8c160ff319bab6fe6698dc4f3f4fdec5fab0b758": {
+    "query": "something blue and comfortable for weekends",
+    "filters": {
+      "colour_family": "Blue"
+    },
+    "soft_intent": "something blue and comfortable for weekends",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6334535689993572,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"blue\", \"index_group_name\": null}, \"soft_intent\": \"something blue and comfortable for weekends\"}",
+    "evidence": {
+      "colour_family": "blue"
+    }
+  },
+  "6e40c50cd70680d94dc3fa642cf9af978bbc0d556306cbd54a910804f6b8bf92": {
+    "query": "a black outfit with a minimalist feel",
+    "filters": {
+      "colour_family": "Black"
+    },
+    "soft_intent": "a black outfit with a minimalist feel",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.358287267000378,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": \"\", \"colour_family\": \"black\"}, \"soft_intent\": \"a black outfit with a minimalist feel\"}",
+    "evidence": {
+      "colour_family": "black"
+    }
+  },
+  "b7a40d7af8e64a9d7b94270f8e5094ea3fbf7fb2c3fabe7eded1c7cae033ef4f": {
+    "query": "something white and airy for hot weather",
+    "filters": {
+      "colour_family": "White"
+    },
+    "soft_intent": "something white and airy for hot weather",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.4274696239999685,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"white\"}, \"soft_intent\": \"something white and airy for hot weather\"}",
+    "evidence": {
+      "colour_family": "white"
+    }
+  },
+  "5e5ecb1eed65a81fafcd8ff27db1a88ab821b1cd953b4e6e2471e2d7290b295e": {
+    "query": "a red piece for a festive evening",
+    "filters": {
+      "colour_family": "Red"
+    },
+    "soft_intent": "for a festive evening",
+    "dropped": [
+      [
+        "product_type_name",
+        "Piece",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.3432150830003593,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": null, \"product_type_name\": \"Piece\"}, \"evidence\": {\"product_type_name\": \"piece\", \"colour_family\": \"red\"}, \"soft_intent\": \"for a festive evening\"}",
+    "evidence": {
+      "colour_family": "red"
+    }
+  },
+  "c5ea8f7867ae6da482c1cd510c338f5b8820730c4a9c6174e67a7a117efb2a3d": {
+    "query": "something pink with a romantic feel",
+    "filters": {
+      "colour_family": "Pink"
+    },
+    "soft_intent": "something pink with a romantic feel",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.613574318999781,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Pink\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"pink\", \"index_group_name\": null}, \"soft_intent\": \"something pink with a romantic feel\"}",
+    "evidence": {
+      "colour_family": "pink"
+    }
+  },
+  "aa04553b684898b3fcf3c7e2a49c5a5e33190864d1384d8c40ace9d8b84acd88": {
+    "query": "a green outfit for a relaxed afternoon",
+    "filters": {
+      "colour_family": "Green"
+    },
+    "soft_intent": "a green outfit for a relaxed afternoon",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.3969993099999556,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"green\"}, \"soft_intent\": \"a green outfit for a relaxed afternoon\"}",
+    "evidence": {
+      "colour_family": "green"
+    }
+  },
+  "53825754d42c4601f0278a0085ba9435aff67510d3881f00172c846edddb7445": {
+    "query": "something polished for a job interview",
+    "filters": {},
+    "soft_intent": "polished for a job interview",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8534597799998664,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"polished for a job interview\"}",
+    "evidence": {}
+  },
+  "bdc9f994d2d86f370b9f68bb52fe230bb986de814b2e1a6f5f7fa6acf2c3bd74": {
+    "query": "comfortable clothing for a weekend at home",
+    "filters": {},
+    "soft_intent": "comfortable clothing for a weekend at home",
+    "dropped": [
+      [
+        "product_type_name",
+        "Clothing",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.0537862850005695,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Clothing\"}, \"evidence\": {}, \"soft_intent\": \"comfortable clothing for a weekend at home\"}",
+    "evidence": {}
+  },
+  "a851cde7aa03ff75584f963c541b62b5ab8ac22a2be782a97da9a33ed1c47a1b": {
+    "query": "a vintage-inspired outfit for a concert",
+    "filters": {},
+    "soft_intent": "vintage-inspired outfit for a concert",
+    "dropped": [
+      [
+        "index_group_name",
+        "Vintage",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 1.9514722700005223,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Vintage\", \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"vintage-inspired outfit for a concert\"}",
+    "evidence": {}
+  },
+  "55668da056e62216badff24a9859894c6f04e4682a6d7d1e528bf07e64be3a8d": {
+    "query": "something breathable for humid weather",
+    "filters": {},
+    "soft_intent": "something breathable for humid weather",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.796938186999796,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"something breathable for humid weather\"}",
+    "evidence": {}
+  },
+  "cc532776ef884f77adf52dd4b18c56f8ef8c4dcac701dd6b66e32c8460fd3c64": {
+    "query": "a cozy outfit for reading at home",
+    "filters": {},
+    "soft_intent": "cozy outfit for reading at home",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8561183370002254,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"cozy outfit for reading at home\"}",
+    "evidence": {}
+  },
+  "9fb4849f250e3154445c84da1ab3839eab51bfea56c48b557640aac4a7277a79": {
+    "query": "something understated for a gallery visit",
+    "filters": {},
+    "soft_intent": "something understated for a gallery visit",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9453817049998179,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"something understated for a gallery visit\"}",
+    "evidence": {}
+  }
+}

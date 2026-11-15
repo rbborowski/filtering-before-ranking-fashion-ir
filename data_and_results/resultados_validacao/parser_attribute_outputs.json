@@ -1,0 +1,660 @@
+[
+  {
+    "query": "white sneakers for everyday walking",
+    "filters": {
+      "colour_family": "White",
+      "product_type_name": "Sneakers"
+    },
+    "soft_intent": "white sneakers for everyday walking",
+    "dropped": [
+      [
+        "index_group_name",
+        "Menswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9971538150002743,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": \"Menswear\", \"product_type_name\": \"Sneakers\"}, \"evidence\": {\"product_type_name\": \"sneakers\", \"colour_family\": \"white\", \"index_group_name\": \"menswear\"}, \"soft_intent\": \"white sneakers for everyday walking\"}",
+    "evidence": {
+      "colour_family": "white",
+      "product_type_name": "sneakers"
+    }
+  },
+  {
+    "query": "black leather boots with a low heel",
+    "filters": {
+      "colour_family": "Black",
+      "product_type_name": "Boots"
+    },
+    "soft_intent": "black leather boots with a low heel",
+    "dropped": [
+      [
+        "index_group_name",
+        "Menswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.0028450890004024,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": \"Menswear\", \"product_type_name\": \"Boot\"}, \"evidence\": {\"product_type_name\": \"boot\", \"colour_family\": \"black\", \"index_group_name\": \"menswear\"}, \"soft_intent\": \"black leather boots with a low heel\"}",
+    "evidence": {
+      "colour_family": "black",
+      "product_type_name": "boots"
+    }
+  },
+  {
+    "query": "blue loose cotton trousers for weekends",
+    "filters": {
+      "colour_family": "Blue",
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "blue loose cotton trousers for weekends",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.085307329999523,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"blue\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"blue loose cotton trousers for weekends\"}",
+    "evidence": {
+      "colour_family": "blue",
+      "product_type_name": "trousers"
+    }
+  },
+  {
+    "query": "red long-sleeved dress for an evening out",
+    "filters": {
+      "colour_family": "Red",
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "red long-sleeved dress for an evening out",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.69392554299975,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"red\"}, \"soft_intent\": \"red long-sleeved dress for an evening out\"}",
+    "evidence": {
+      "colour_family": "red",
+      "product_type_name": "dress"
+    }
+  },
+  {
+    "query": "green button-up shirt for a casual lunch",
+    "filters": {
+      "colour_family": "Green",
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "for a casual lunch",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.409526105000623,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": \"green\"}, \"soft_intent\": \"for a casual lunch\"}",
+    "evidence": {
+      "colour_family": "green",
+      "product_type_name": "shirt"
+    }
+  },
+  {
+    "query": "pink cotton T-shirt with a relaxed fit",
+    "filters": {
+      "colour_family": "Pink",
+      "product_type_name": "T-shirt"
+    },
+    "soft_intent": "relaxed fit pink cotton t-shirt",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6132541229999333,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Pink\", \"index_group_name\": null, \"product_type_name\": \"T-Shirt\"}, \"evidence\": {\"product_type_name\": \"t-shirt\", \"colour_family\": \"pink\"}, \"soft_intent\": \"relaxed fit pink cotton t-shirt\"}",
+    "evidence": {
+      "colour_family": "pink",
+      "product_type_name": "t-shirt"
+    }
+  },
+  {
+    "query": "grey zip-up hoodie with pockets",
+    "filters": {
+      "colour_family": "Grey",
+      "product_type_name": "Hoodie"
+    },
+    "soft_intent": "",
+    "dropped": [
+      [
+        "index_group_name",
+        "Men'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.8079502519995003,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Grey\", \"index_group_name\": \"Men'swear\", \"product_type_name\": \"Hoodie\"}, \"evidence\": {\"product_type_name\": \"hoodie\", \"colour_family\": \"grey\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"\"}",
+    "evidence": {
+      "colour_family": "grey",
+      "product_type_name": "hoodie"
+    }
+  },
+  {
+    "query": "beige knitted sweater for layering",
+    "filters": {
+      "colour_family": "Beige",
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "layering beige knitted sweater",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6786514820005323,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Beige\", \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"beige\"}, \"soft_intent\": \"layering beige knitted sweater\"}",
+    "evidence": {
+      "colour_family": "beige",
+      "product_type_name": "sweater"
+    }
+  },
+  {
+    "query": "black knee-length skirt for work",
+    "filters": {
+      "colour_family": "Black",
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "black knee-length skirt for work",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9908455240001786,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"black\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"black knee-length skirt for work\"}",
+    "evidence": {
+      "colour_family": "black",
+      "product_type_name": "skirt"
+    }
+  },
+  {
+    "query": "white lightweight blouse with long sleeves",
+    "filters": {
+      "colour_family": "White",
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "white lightweight blouse with long sleeves",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2983548000001974,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": \"white\", \"index_group_name\": \"ladieswear\", \"style\": \"lightweight\"}, \"soft_intent\": \"white lightweight blouse with long sleeves\"}",
+    "evidence": {
+      "colour_family": "white",
+      "product_type_name": "blouse"
+    }
+  },
+  {
+    "query": "blue tailored shorts with side pockets",
+    "filters": {
+      "colour_family": "Blue",
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "blue tailored shorts with side pockets",
+    "dropped": [
+      [
+        "index_group_name",
+        "Tailored Waistcoat",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.114271911000287,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": \"Tailored Waistcoat\", \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": \"blue\", \"index_group_name\": \"tailored waistcoat\"}, \"soft_intent\": \"blue tailored shorts with side pockets\"}",
+    "evidence": {
+      "colour_family": "blue",
+      "product_type_name": "shorts"
+    }
+  },
+  {
+    "query": "red soft cardigan with buttons",
+    "filters": {
+      "colour_family": "Red",
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "red soft cardigan with buttons",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.9336221319999822,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"colour_family\": \"red\", \"index_group_name\": \"other accessories\"}, \"soft_intent\": \"red soft cardigan with buttons\"}",
+    "evidence": {
+      "colour_family": "red",
+      "product_type_name": "cardigan"
+    }
+  },
+  {
+    "query": "green lightweight jacket with a hood",
+    "filters": {
+      "colour_family": "Green",
+      "product_type_name": "Jacket"
+    },
+    "soft_intent": "lightweight green jacket with a hood",
+    "dropped": [
+      [
+        "index_group_name",
+        "Men'swear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.066925615999935,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": \"Men'swear\", \"product_type_name\": \"Jacket\"}, \"evidence\": {\"product_type_name\": \"jacket\", \"colour_family\": \"green\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"lightweight green jacket with a hood\"}",
+    "evidence": {
+      "colour_family": "green",
+      "product_type_name": "jacket"
+    }
+  },
+  {
+    "query": "yellow plain cotton socks",
+    "filters": {
+      "colour_family": "Yellow"
+    },
+    "soft_intent": "plain cotton yellow socks",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.419523399999889,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Yellow\", \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": \"yellow\"}, \"soft_intent\": \"plain cotton yellow socks\"}",
+    "evidence": {
+      "colour_family": "yellow"
+    }
+  },
+  {
+    "query": "purple flowing dress with short sleeves",
+    "filters": {
+      "colour_family": "Purple",
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "flowing dress with short sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.490722085000016,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Purple\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"purple\"}, \"soft_intent\": \"flowing dress with short sleeves\"}",
+    "evidence": {
+      "colour_family": "purple",
+      "product_type_name": "dress"
+    }
+  },
+  {
+    "query": "orange loose trousers with a drawstring waist",
+    "filters": {
+      "colour_family": "Orange",
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "orange loose trousers with a drawstring waist",
+    "dropped": [
+      [
+        "index_group_name",
+        "Ladieswear",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.2491807189999236,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Orange\", \"index_group_name\": \"Ladieswear\", \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"orange\", \"index_group_name\": \"ladieswear\"}, \"soft_intent\": \"orange loose trousers with a drawstring waist\"}",
+    "evidence": {
+      "colour_family": "orange",
+      "product_type_name": "trousers"
+    }
+  },
+  {
+    "query": "cotton trousers with a straight leg",
+    "filters": {
+      "product_type_name": "Trousers"
+    },
+    "soft_intent": "cotton trousers with a straight leg",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8713211149997733,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cotton trousers with a straight leg\"}",
+    "evidence": {
+      "product_type_name": "trousers"
+    }
+  },
+  {
+    "query": "pleated midi skirt for a family gathering",
+    "filters": {
+      "product_type_name": "Skirt"
+    },
+    "soft_intent": "pleated midi skirt for a family gathering",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.94870791700032,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Skirt\"}, \"evidence\": {\"product_type_name\": \"skirt\", \"colour_family\": \"None\", \"index_group_name\": \"divided\"}, \"soft_intent\": \"pleated midi skirt for a family gathering\"}",
+    "evidence": {
+      "product_type_name": "skirt"
+    }
+  },
+  {
+    "query": "soft wool sweater with a round neckline",
+    "filters": {
+      "product_type_name": "Sweater"
+    },
+    "soft_intent": "soft wool sweater with a round neckline",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.9448844750004355,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sweater\"}, \"evidence\": {\"product_type_name\": \"sweater\", \"colour_family\": \"wool\", \"index_group_name\": \"other\"}, \"soft_intent\": \"soft wool sweater with a round neckline\"}",
+    "evidence": {
+      "product_type_name": "sweater"
+    }
+  },
+  {
+    "query": "cropped hoodie with a front zip",
+    "filters": {
+      "product_type_name": "Hoodie"
+    },
+    "soft_intent": "cropped hoodie with a front zip",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.845448703999864,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Hoodie\"}, \"evidence\": {\"product_type_name\": \"hoodie\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"cropped hoodie with a front zip\"}",
+    "evidence": {
+      "product_type_name": "hoodie"
+    }
+  },
+  {
+    "query": "lightweight cardigan for air-conditioned rooms",
+    "filters": {
+      "product_type_name": "Cardigan"
+    },
+    "soft_intent": "lightweight cardigan for air-conditioned rooms",
+    "dropped": [
+      [
+        "index_group_name",
+        "Other accessories",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 3.085230802999831,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Other accessories\", \"product_type_name\": \"Cardigan\"}, \"evidence\": {\"product_type_name\": \"cardigan\", \"index_group_name\": \"other accessories\", \"colour_family\": \"lightweight\"}, \"soft_intent\": \"lightweight cardigan for air-conditioned rooms\"}",
+    "evidence": {
+      "product_type_name": "cardigan"
+    }
+  },
+  {
+    "query": "linen shirt with rolled sleeves",
+    "filters": {
+      "product_type_name": "Shirt"
+    },
+    "soft_intent": "linen shirt with rolled sleeves",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.7985075739998138,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shirt\"}, \"evidence\": {\"product_type_name\": \"shirt\", \"colour_family\": \"linen\", \"index_group_name\": \"other\"}, \"soft_intent\": \"linen shirt with rolled sleeves\"}",
+    "evidence": {
+      "product_type_name": "shirt"
+    }
+  },
+  {
+    "query": "sleeveless blouse with a high neckline",
+    "filters": {
+      "product_type_name": "Blouse"
+    },
+    "soft_intent": "sleeveless blouse with a high neckline",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.224769703000675,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Blouse\"}, \"evidence\": {\"product_type_name\": \"blouse\", \"colour_family\": null, \"index_group_name\": null, \"neckline\": \"high\"}, \"soft_intent\": \"sleeveless blouse with a high neckline\"}",
+    "evidence": {
+      "product_type_name": "blouse"
+    }
+  },
+  {
+    "query": "comfortable shorts with an elastic waist",
+    "filters": {
+      "product_type_name": "Shorts"
+    },
+    "soft_intent": "",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.763582628000222,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Shorts\"}, \"evidence\": {\"product_type_name\": \"shorts\", \"colour_family\": null, \"index_group_name\": null, \"soft_intent\": \"comfortable with an elastic waist\"}}",
+    "evidence": {
+      "product_type_name": "shorts"
+    }
+  },
+  {
+    "query": "leather boots with a sturdy sole",
+    "filters": {
+      "product_type_name": "Boots"
+    },
+    "soft_intent": "leather boots with a sturdy sole",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6730881280000176,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Boot\"}, \"evidence\": {\"product_type_name\": \"boot\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"leather boots with a sturdy sole\"}",
+    "evidence": {
+      "product_type_name": "boots"
+    }
+  },
+  {
+    "query": "breathable sneakers for city walks",
+    "filters": {
+      "product_type_name": "Sneakers"
+    },
+    "soft_intent": "breathable sneakers for city walks",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.8268368899998677,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sneakers\"}, \"evidence\": {\"product_type_name\": \"sneakers\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"breathable sneakers for city walks\"}",
+    "evidence": {
+      "product_type_name": "sneakers"
+    }
+  },
+  {
+    "query": "ankle socks for daily wear",
+    "filters": {},
+    "soft_intent": "ankle socks for daily wear",
+    "dropped": [
+      [
+        "product_type_name",
+        "Sock",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.7248565280006005,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Sock\"}, \"evidence\": {\"product_type_name\": \"socks\", \"colour_family\": null, \"index_group_name\": null}, \"soft_intent\": \"ankle socks for daily wear\"}",
+    "evidence": {}
+  },
+  {
+    "query": "long dress with a gathered waist",
+    "filters": {
+      "product_type_name": "Dress"
+    },
+    "soft_intent": "long dress with a gathered waist",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 3.0572437220007487,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Long Dress\"}, \"soft_intent\": \"long dress with a gathered waist\"}",
+    "evidence": {
+      "product_type_name": "Long Dress"
+    }
+  },
+  {
+    "query": "something blue and comfortable for weekends",
+    "filters": {
+      "colour_family": "Blue"
+    },
+    "soft_intent": "something blue and comfortable for weekends",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.6334535689993572,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Blue\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"blue\", \"index_group_name\": null}, \"soft_intent\": \"something blue and comfortable for weekends\"}",
+    "evidence": {
+      "colour_family": "blue"
+    }
+  },
+  {
+    "query": "a black outfit with a minimalist feel",
+    "filters": {
+      "colour_family": "Black"
+    },
+    "soft_intent": "a black outfit with a minimalist feel",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.358287267000378,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Black\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": \"\", \"colour_family\": \"black\"}, \"soft_intent\": \"a black outfit with a minimalist feel\"}",
+    "evidence": {
+      "colour_family": "black"
+    }
+  },
+  {
+    "query": "something white and airy for hot weather",
+    "filters": {
+      "colour_family": "White"
+    },
+    "soft_intent": "something white and airy for hot weather",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.4274696239999685,
+    "raw_response": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"white\"}, \"soft_intent\": \"something white and airy for hot weather\"}",
+    "evidence": {
+      "colour_family": "white"
+    }
+  },
+  {
+    "query": "a red piece for a festive evening",
+    "filters": {
+      "colour_family": "Red"
+    },
+    "soft_intent": "for a festive evening",
+    "dropped": [
+      [
+        "product_type_name",
+        "Piece",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.3432150830003593,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": null, \"product_type_name\": \"Piece\"}, \"evidence\": {\"product_type_name\": \"piece\", \"colour_family\": \"red\"}, \"soft_intent\": \"for a festive evening\"}",
+    "evidence": {
+      "colour_family": "red"
+    }
+  },
+  {
+    "query": "something pink with a romantic feel",
+    "filters": {
+      "colour_family": "Pink"
+    },
+    "soft_intent": "something pink with a romantic feel",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.613574318999781,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Pink\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"pink\", \"index_group_name\": null}, \"soft_intent\": \"something pink with a romantic feel\"}",
+    "evidence": {
+      "colour_family": "pink"
+    }
+  },
+  {
+    "query": "a green outfit for a relaxed afternoon",
+    "filters": {
+      "colour_family": "Green"
+    },
+    "soft_intent": "a green outfit for a relaxed afternoon",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 2.3969993099999556,
+    "raw_response": "{\"filters\": {\"colour_family\": \"Green\", \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {\"product_type_name\": null, \"colour_family\": \"green\"}, \"soft_intent\": \"a green outfit for a relaxed afternoon\"}",
+    "evidence": {
+      "colour_family": "green"
+    }
+  },
+  {
+    "query": "something polished for a job interview",
+    "filters": {},
+    "soft_intent": "polished for a job interview",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8534597799998664,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"polished for a job interview\"}",
+    "evidence": {}
+  },
+  {
+    "query": "comfortable clothing for a weekend at home",
+    "filters": {},
+    "soft_intent": "comfortable clothing for a weekend at home",
+    "dropped": [
+      [
+        "product_type_name",
+        "Clothing",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 2.0537862850005695,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": \"Clothing\"}, \"evidence\": {}, \"soft_intent\": \"comfortable clothing for a weekend at home\"}",
+    "evidence": {}
+  },
+  {
+    "query": "a vintage-inspired outfit for a concert",
+    "filters": {},
+    "soft_intent": "vintage-inspired outfit for a concert",
+    "dropped": [
+      [
+        "index_group_name",
+        "Vintage",
+        "invalid_value_or_evidence"
+      ]
+    ],
+    "ok": true,
+    "llm_seconds": 1.9514722700005223,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": \"Vintage\", \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"vintage-inspired outfit for a concert\"}",
+    "evidence": {}
+  },
+  {
+    "query": "something breathable for humid weather",
+    "filters": {},
+    "soft_intent": "something breathable for humid weather",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.796938186999796,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"something breathable for humid weather\"}",
+    "evidence": {}
+  },
+  {
+    "query": "a cozy outfit for reading at home",
+    "filters": {},
+    "soft_intent": "cozy outfit for reading at home",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.8561183370002254,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"cozy outfit for reading at home\"}",
+    "evidence": {}
+  },
+  {
+    "query": "something understated for a gallery visit",
+    "filters": {},
+    "soft_intent": "something understated for a gallery visit",
+    "dropped": [],
+    "ok": true,
+    "llm_seconds": 1.9453817049998179,
+    "raw_response": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"something understated for a gallery visit\"}",
+    "evidence": {}
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "product_type_name": {
+    "jeans": "Trousers",
+    "pants": "Trousers",
+    "boot": "Boots",
+    "tee": "T-shirt",
+    "tshirt": "T-shirt",
+    "t shirt": "T-shirt"
+  },
+  "colour_family": {
+    "gray": "Grey",
+    "navy": "Blue"
+  },
+  "index_group_name": {
+    "women": "Ladieswear",
+    "woman": "Ladieswear",
+    "womens": "Ladieswear",
+    "women's": "Ladieswear",
+    "ladies": "Ladieswear",
+    "female": "Ladieswear",
+    "men": "Menswear",
+    "man": "Menswear",
+    "mens": "Menswear",
+    "men's": "Menswear",
+    "male": "Menswear",
+    "kids": "Baby/Children",
+    "kid": "Baby/Children",
+    "children": "Baby/Children",
+    "child": "Baby/Children",
+    "baby": "Baby/Children"
+  }
+}

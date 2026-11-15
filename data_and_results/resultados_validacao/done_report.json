@@ -1,0 +1,9 @@
+{
+  "stage": "report",
+  "version": "ram-isolated-v1",
+  "n": 200,
+  "catalog_seed": 42,
+  "query_seed": 2026,
+  "parser": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generator": "Qwen/Qwen2.5-3B-Instruct"
+}

@@ -1,0 +1,14 @@
+query_id,article_id,query,filters_used,catalog_product_type,adjudicated_cause,confidence,notes
+synth_0003,0895810001,flounce-trimmed jersey top with v-neck,"{""product_type_name"": ""Vest top""}",Top,Taxonomy Boundary,High,LLM extracted Vest top; H&M catalog labels it as Top (which is abstained)
+synth_0004,0724626006,single-breasted linen blazer with pockets,"{""product_type_name"": ""Jacket""}",Blazer,Parser Error,High,LLM mapped 'blazer' to Jacket (citing 'linen' as evidence) despite Blazer being in vocabulary
+synth_0010,0918474001,ribbed stand-up collar jumper,"{""product_type_name"": ""Shirt""}",Sweater,Parser Error,High,LLM mapped 'jumper' to Shirt (citing 'collar' as evidence) instead of Sweater
+synth_0037,0820197003,knitted jumper with round neckline,"{""product_type_name"": ""T-shirt""}",Sweater,Parser Error,High,LLM mapped 'jumper' to T-shirt instead of Sweater
+synth_0039,0861519001,mesh push-up bra with lace,"{""product_type_name"": ""Bikini top""}",Bra,Parser Error,High,LLM mapped 'bra' to Bikini top despite Bra being in vocabulary
+synth_0047,0751788001,printed sweatshirt with ribbed trims,"{""product_type_name"": ""T-shirt""}",Sweater,Taxonomy Boundary,High,H&M groups sweatshirts under Sweater; LLM mapped sweatshirt to T-shirt
+synth_0049,0637115001,fleece-lined waterproof outdoor mittens,"{""product_type_name"": ""Gloves""}",Other accessories,Taxonomy Boundary,High, Shopper query says mittens -> Gloves; H&M catalog labels baby mittens under Other accessories
+synth_0115,0831761001,cotton jersey pyjama tee and shorts,"{""product_type_name"": ""T-shirt""}",Pyjama set,Multi-Garment Query,High,Set description mentions tee and shorts; single-value schema extracted T-shirt while item is Pyjama set
+synth_0128,0735763001,ribbed jersey top with lace trim,"{""product_type_name"": ""Vest top""}",Top,Taxonomy Boundary,High,Sleeveless/strappy jersey top classified as Top in H&M but Vest top by parser
+synth_0129,0657510001,padded bikini top with underwire,"{""product_type_name"": ""Bra""}",Bikini top,Parser Error,High,Duplicate JSON key overwrite or underwire cue caused Bra to overwrite Bikini top
+synth_0138,0535293001,soft cotton jersey sleepsuit with press-studs,"{""product_type_name"": ""Pyjama set""}",Night gown,Taxonomy Boundary,High,Baby sleepsuit categorized as Night gown in H&M; parser mapped sleepsuit to Pyjama set
+synth_0184,0590343002,organic cotton bodysuit and leggings set,"{""product_type_name"": ""Bodysuit""}",Garment Set,Multi-Garment Query,High,2-piece set description; parser extracted Bodysuit whereas catalog product_type_name is Garment Set
+synth_0185,0621295001,hooded sweatshirt jacket with zip,"{""product_type_name"": ""Hoodie""}",Jacket,Taxonomy Boundary,High,"Zip-through hooded jacket described with sweatshirt fabric; parser chose Hoodie, H&M chose Jacket"

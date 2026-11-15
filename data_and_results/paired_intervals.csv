@@ -1,0 +1,9 @@
+embedder,system,metric,n,delta,ci_low,ci_high
+all-MiniLM-L6-v2,filters_full,Hit@5,200,-0.005,-0.03,0.02
+all-MiniLM-L6-v2,filters_soft,Hit@5,200,-0.01,-0.04,0.025
+all-MiniLM-L6-v2,filters_full,MRR@20,200,0.0049,-0.0149,0.0218
+all-MiniLM-L6-v2,filters_soft,MRR@20,200,-0.0002,-0.0214,0.0189
+BAAI/bge-small-en-v1.5,filters_full,Hit@5,200,-0.01,-0.035,0.015
+BAAI/bge-small-en-v1.5,filters_soft,Hit@5,200,-0.035,-0.065,-0.005
+BAAI/bge-small-en-v1.5,filters_full,MRR@20,200,-0.0107,-0.0294,0.0034
+BAAI/bge-small-en-v1.5,filters_soft,MRR@20,200,-0.0176,-0.0379,-0.0001

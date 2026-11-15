@@ -1,0 +1,16 @@
+{"stage": "start:prepare", "pid": 26863, "rss_mb": 950.58203125, "peak_rss_mb": 950.30859375, "gpu_allocated_mb": 0.0}
+{"stage": "prepare_complete", "pid": 26863, "rss_mb": 1049.0, "peak_rss_mb": 1048.71484375, "gpu_allocated_mb": 0.0}
+{"stage": "start:generate", "pid": 26970, "rss_mb": 953.78515625, "peak_rss_mb": 953.6015625, "gpu_allocated_mb": 0.0}
+{"stage": "before_generator_load", "pid": 26970, "rss_mb": 978.62109375, "peak_rss_mb": 978.9765625, "gpu_allocated_mb": 0.0}
+{"stage": "generate_complete", "pid": 26970, "rss_mb": 1761.94921875, "peak_rss_mb": 7030.79296875, "gpu_allocated_mb": 9.125}
+{"stage": "start:parse", "pid": 27518, "rss_mb": 951.86328125, "peak_rss_mb": 951.6640625, "gpu_allocated_mb": 0.0}
+{"stage": "before_parser_load", "pid": 27518, "rss_mb": 979.6796875, "peak_rss_mb": 979.4921875, "gpu_allocated_mb": 0.0}
+{"stage": "parse_complete", "pid": 27518, "rss_mb": 1795.3828125, "peak_rss_mb": 4086.04296875, "gpu_allocated_mb": 2953.52734375}
+{"stage": "start:minilm", "pid": 30450, "rss_mb": 950.0390625, "peak_rss_mb": 949.89453125, "gpu_allocated_mb": 0.0}
+{"stage": "before_embedder_load:all-MiniLM-L6-v2", "pid": 30450, "rss_mb": 976.1015625, "peak_rss_mb": 975.8359375, "gpu_allocated_mb": 0.0}
+{"stage": "retrieve_complete:all-MiniLM-L6-v2", "pid": 30450, "rss_mb": 1482.12109375, "peak_rss_mb": 1481.9140625, "gpu_allocated_mb": 95.77685546875}
+{"stage": "start:bge", "pid": 30563, "rss_mb": 948.6640625, "peak_rss_mb": 948.48828125, "gpu_allocated_mb": 0.0}
+{"stage": "before_embedder_load:BAAI/bge-small-en-v1.5", "pid": 30563, "rss_mb": 974.9765625, "peak_rss_mb": 974.58984375, "gpu_allocated_mb": 0.0}
+{"stage": "retrieve_complete:BAAI/bge-small-en-v1.5", "pid": 30563, "rss_mb": 1473.72265625, "peak_rss_mb": 1473.54296875, "gpu_allocated_mb": 136.39111328125}
+{"stage": "start:report", "pid": 30701, "rss_mb": 951.625, "peak_rss_mb": 951.515625, "gpu_allocated_mb": 0.0}
+{"stage": "report_complete", "pid": 30701, "rss_mb": 1010.04296875, "peak_rss_mb": 1009.890625, "gpu_allocated_mb": 0.0}

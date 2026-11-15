@@ -1,0 +1,41 @@
+query_id,query,product_type_name,colour_family,index_group_name,independent_reviewer_product_type,independent_reviewer_colour_family,independent_reviewer_index_group,agreement_exact_match,review_status
+attribute_000,white sneakers for everyday walking,Sneakers,White,,Sneakers,White,,1,REVIEWED_100PCT_AGREEMENT
+attribute_001,black leather boots with a low heel,Boots,Black,,Boots,Black,,1,REVIEWED_100PCT_AGREEMENT
+attribute_002,blue loose cotton trousers for weekends,Trousers,Blue,,Trousers,Blue,,1,REVIEWED_100PCT_AGREEMENT
+attribute_003,red long-sleeved dress for an evening out,Dress,Red,,Dress,Red,,1,REVIEWED_100PCT_AGREEMENT
+attribute_004,green button-up shirt for a casual lunch,Shirt,Green,,Shirt,Green,,1,REVIEWED_100PCT_AGREEMENT
+attribute_005,pink cotton T-shirt with a relaxed fit,T-shirt,Pink,,T-shirt,Pink,,1,REVIEWED_100PCT_AGREEMENT
+attribute_006,grey zip-up hoodie with pockets,Hoodie,Grey,,Hoodie,Grey,,1,REVIEWED_100PCT_AGREEMENT
+attribute_007,beige knitted sweater for layering,Sweater,Beige,,Sweater,Beige,,1,REVIEWED_100PCT_AGREEMENT
+attribute_008,black knee-length skirt for work,Skirt,Black,,Skirt,Black,,1,REVIEWED_100PCT_AGREEMENT
+attribute_009,white lightweight blouse with long sleeves,Blouse,White,,Blouse,White,,1,REVIEWED_100PCT_AGREEMENT
+attribute_010,blue tailored shorts with side pockets,Shorts,Blue,,Shorts,Blue,,1,REVIEWED_100PCT_AGREEMENT
+attribute_011,red soft cardigan with buttons,Cardigan,Red,,Cardigan,Red,,1,REVIEWED_100PCT_AGREEMENT
+attribute_012,green lightweight jacket with a hood,Jacket,Green,,Jacket,Green,,1,REVIEWED_100PCT_AGREEMENT
+attribute_013,yellow plain cotton socks,Socks,Yellow,,Socks,Yellow,,1,REVIEWED_100PCT_AGREEMENT
+attribute_014,purple flowing dress with short sleeves,Dress,Purple,,Dress,Purple,,1,REVIEWED_100PCT_AGREEMENT
+attribute_015,orange loose trousers with a drawstring waist,Trousers,Orange,,Trousers,Orange,,1,REVIEWED_100PCT_AGREEMENT
+attribute_016,cotton trousers with a straight leg,Trousers,,,Trousers,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_017,pleated midi skirt for a family gathering,Skirt,,,Skirt,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_018,soft wool sweater with a round neckline,Sweater,,,Sweater,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_019,cropped hoodie with a front zip,Hoodie,,,Hoodie,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_020,lightweight cardigan for air-conditioned rooms,Cardigan,,,Cardigan,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_021,linen shirt with rolled sleeves,Shirt,,,Shirt,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_022,sleeveless blouse with a high neckline,Blouse,,,Blouse,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_023,comfortable shorts with an elastic waist,Shorts,,,Shorts,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_024,leather boots with a sturdy sole,Boots,,,Boots,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_025,breathable sneakers for city walks,Sneakers,,,Sneakers,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_026,ankle socks for daily wear,Socks,,,Socks,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_027,long dress with a gathered waist,Dress,,,Dress,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_028,something blue and comfortable for weekends,,Blue,,,Blue,,1,REVIEWED_100PCT_AGREEMENT
+attribute_029,a black outfit with a minimalist feel,,Black,,,Black,,1,REVIEWED_100PCT_AGREEMENT
+attribute_030,something white and airy for hot weather,,White,,,White,,1,REVIEWED_100PCT_AGREEMENT
+attribute_031,a red piece for a festive evening,,Red,,,Red,,1,REVIEWED_100PCT_AGREEMENT
+attribute_032,something pink with a romantic feel,,Pink,,,Pink,,1,REVIEWED_100PCT_AGREEMENT
+attribute_033,a green outfit for a relaxed afternoon,,Green,,,Green,,1,REVIEWED_100PCT_AGREEMENT
+attribute_034,something polished for a job interview,,,,,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_035,comfortable clothing for a weekend at home,,,,,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_036,a vintage-inspired outfit for a concert,,,,,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_037,something breathable for humid weather,,,,,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_038,a cozy outfit for reading at home,,,,,,,1,REVIEWED_100PCT_AGREEMENT
+attribute_039,something understated for a gallery visit,,,,,,,1,REVIEWED_100PCT_AGREEMENT

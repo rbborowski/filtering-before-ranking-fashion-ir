@@ -1,0 +1,38 @@
+[
+  {
+    "role": "system",
+    "content": "Extract explicitly stated fashion constraints. Return JSON only.\nSchema: {\"filters\": {\"product_type_name\": null, \"colour_family\": null,\n\"index_group_name\": null}, \"evidence\": {}, \"soft_intent\": \"remaining query words\"}.\nEach non-null value MUST be from the allowed vocabulary and have evidence:\nan exact contiguous quotation from the user's query supporting that field.\nNever infer audience from garment, occasion or style. Never infer colour from style.\nUse null when unspecified or ambiguous. Preserve garment/style details in soft_intent\nif they cannot be represented by an exact allowed filter. An evidence quote must\nsupport the chosen value, not merely occur in the query.\nAllowed vocabulary: {\"colour_family\": [\"Beige\", \"Black\", \"Blue\", \"Brown\", \"Green\", \"Grey\", \"Orange\", \"Pink\", \"Purple\", \"Red\", \"Turquoise\", \"White\", \"Yellow\"], \"index_group_name\": [\"Baby/Children\", \"Divided\", \"Ladieswear\", \"Menswear\", \"Sport\"], \"product_type_name\": [\"Bag\", \"Ballerinas\", \"Beanie\", \"Belt\", \"Bikini top\", \"Blazer\", \"Blouse\", \"Bodysuit\", \"Boots\", \"Bra\", \"Bracelet\", \"Cap/peaked\", \"Cardigan\", \"Coat\", \"Costumes\", \"Dress\", \"Dungarees\", \"Earring\", \"Flat shoe\", \"Flip flop\", \"Garment Set\", \"Gloves\", \"Hair clip\", \"Hair string\", \"Hair/alice band\", \"Hat/beanie\", \"Hat/brim\", \"Heeled sandals\", \"Hoodie\", \"Jacket\", \"Jumpsuit/Playsuit\", \"Kids Underwear top\", \"Leggings/Tights\", \"Necklace\", \"Night gown\", \"Other accessories\", \"Other shoe\", \"Outdoor Waistcoat\", \"Outdoor overall\", \"Outdoor trousers\", \"Polo shirt\", \"Pumps\", \"Pyjama bottom\", \"Pyjama jumpsuit/playsuit\", \"Pyjama set\", \"Ring\", \"Robe\", \"Sandals\", \"Sarong\", \"Scarf\", \"Shirt\", \"Shorts\", \"Skirt\", \"Slippers\", \"Sneakers\", \"Socks\", \"Sunglasses\", \"Sweater\", \"Swimsuit\", \"Swimwear bottom\", \"Swimwear set\", \"Swimwear top\", \"T-shirt\", \"Tailored Waistcoat\", \"Tie\", \"Top\", \"Trousers\", \"Underwear Tights\", \"Underwear body\", \"Underwear bottom\", \"Vest top\", \"Wallet\", \"Watch\", \"Wedge\"]}"
+  },
+  {
+    "role": "user",
+    "content": "formal red trousers for a gala"
+  },
+  {
+    "role": "assistant",
+    "content": "{\"filters\": {\"colour_family\": \"Red\", \"index_group_name\": null, \"product_type_name\": \"Trousers\"}, \"evidence\": {\"product_type_name\": \"trousers\", \"colour_family\": \"red\"}, \"soft_intent\": \"formal for a gala\"}"
+  },
+  {
+    "role": "user",
+    "content": "goth white maxi dress"
+  },
+  {
+    "role": "assistant",
+    "content": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": null, \"product_type_name\": \"Dress\"}, \"evidence\": {\"product_type_name\": \"dress\", \"colour_family\": \"white\"}, \"soft_intent\": \"goth maxi\"}"
+  },
+  {
+    "role": "user",
+    "content": "something cozy for winter"
+  },
+  {
+    "role": "assistant",
+    "content": "{\"filters\": {\"colour_family\": null, \"index_group_name\": null, \"product_type_name\": null}, \"evidence\": {}, \"soft_intent\": \"something cozy for winter\"}"
+  },
+  {
+    "role": "user",
+    "content": "men's white sneakers"
+  },
+  {
+    "role": "assistant",
+    "content": "{\"filters\": {\"colour_family\": \"White\", \"index_group_name\": \"Menswear\", \"product_type_name\": \"Sneakers\"}, \"evidence\": {\"product_type_name\": \"sneakers\", \"colour_family\": \"white\", \"index_group_name\": \"men's\"}, \"soft_intent\": \"\"}"
+  }
+]

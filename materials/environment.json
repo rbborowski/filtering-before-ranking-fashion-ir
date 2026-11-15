@@ -1,0 +1,26 @@
+{
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "seed": 42,
+  "sample_size": 10000,
+  "n_synthetic": 200,
+  "validation_seed": 2026,
+  "parser": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generator": "Qwen/Qwen2.5-3B-Instruct",
+  "embedders": [
+    "all-MiniLM-L6-v2",
+    "BAAI/bge-small-en-v1.5"
+  ],
+  "audience_filter": false,
+  "memory_execution": "separate_process_per_stage",
+  "embedding_batch_size": 16,
+  "llm_dtype": "float16",
+  "llm_device_map": "cuda:0",
+  "filter_policy": "strict_with_top_abstention",
+  "generation_input": "detail_desc_only",
+  "ambiguous_product_types": [
+    "Top"
+  ],
+  "residual_policy": "deterministic_remove_single_word_applied_evidence"
+}

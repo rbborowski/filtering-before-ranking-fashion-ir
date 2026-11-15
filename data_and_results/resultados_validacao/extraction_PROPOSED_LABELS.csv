@@ -1,0 +1,4 @@
+field,precision,recall,tp,fp,fn
+colour_family,1.0,1.0,22,0,0
+index_group_name,,,0,0,0
+product_type_name,1.0,0.9285714285714286,26,0,2

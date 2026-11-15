@@ -1,0 +1,7 @@
+field,distinct_values,values_below_min_count,top5_coverage,missing
+product_type_name,131,25,0.406,0
+colour_group_name,50,0,0.518,0
+colour_family,14,0,0.685,0
+index_group_name,5,0,1.0,0
+garment_group_name,21,0,0.531,0
+section_name,56,1,0.263,0

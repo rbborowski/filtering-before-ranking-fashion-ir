@@ -1,0 +1,7 @@
+embedder,system,N,Hit@1,Hit@5,Hit@10,Hit@20,MRR@20,target_filtered_out,n_candidates
+all-MiniLM-L6-v2,baseline,200,0.13,0.27,0.37,0.45,0.1924,0.0,10000.0
+all-MiniLM-L6-v2,filters_full,200,0.13,0.265,0.37,0.46,0.1972,0.065,5192.62
+all-MiniLM-L6-v2,filters_soft,200,0.125,0.26,0.38,0.465,0.1922,0.065,5192.62
+BAAI/bge-small-en-v1.5,baseline,200,0.185,0.375,0.44,0.555,0.265,0.0,10000.0
+BAAI/bge-small-en-v1.5,filters_full,200,0.175,0.365,0.435,0.545,0.2542,0.065,5192.62
+BAAI/bge-small-en-v1.5,filters_soft,200,0.175,0.34,0.425,0.545,0.2474,0.065,5192.62

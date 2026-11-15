@@ -1,0 +1,41 @@
+query,product_type_name,colour_family,index_group_name,review_status
+white sneakers for everyday walking,Sneakers,White,,PROPOSED_NOT_REVIEWED
+black leather boots with a low heel,Boots,Black,,PROPOSED_NOT_REVIEWED
+blue loose cotton trousers for weekends,Trousers,Blue,,PROPOSED_NOT_REVIEWED
+red long-sleeved dress for an evening out,Dress,Red,,PROPOSED_NOT_REVIEWED
+green button-up shirt for a casual lunch,Shirt,Green,,PROPOSED_NOT_REVIEWED
+pink cotton T-shirt with a relaxed fit,T-shirt,Pink,,PROPOSED_NOT_REVIEWED
+grey zip-up hoodie with pockets,Hoodie,Grey,,PROPOSED_NOT_REVIEWED
+beige knitted sweater for layering,Sweater,Beige,,PROPOSED_NOT_REVIEWED
+black knee-length skirt for work,Skirt,Black,,PROPOSED_NOT_REVIEWED
+white lightweight blouse with long sleeves,Blouse,White,,PROPOSED_NOT_REVIEWED
+blue tailored shorts with side pockets,Shorts,Blue,,PROPOSED_NOT_REVIEWED
+red soft cardigan with buttons,Cardigan,Red,,PROPOSED_NOT_REVIEWED
+green lightweight jacket with a hood,Jacket,Green,,PROPOSED_NOT_REVIEWED
+yellow plain cotton socks,Socks,Yellow,,PROPOSED_NOT_REVIEWED
+purple flowing dress with short sleeves,Dress,Purple,,PROPOSED_NOT_REVIEWED
+orange loose trousers with a drawstring waist,Trousers,Orange,,PROPOSED_NOT_REVIEWED
+cotton trousers with a straight leg,Trousers,,,PROPOSED_NOT_REVIEWED
+pleated midi skirt for a family gathering,Skirt,,,PROPOSED_NOT_REVIEWED
+soft wool sweater with a round neckline,Sweater,,,PROPOSED_NOT_REVIEWED
+cropped hoodie with a front zip,Hoodie,,,PROPOSED_NOT_REVIEWED
+lightweight cardigan for air-conditioned rooms,Cardigan,,,PROPOSED_NOT_REVIEWED
+linen shirt with rolled sleeves,Shirt,,,PROPOSED_NOT_REVIEWED
+sleeveless blouse with a high neckline,Blouse,,,PROPOSED_NOT_REVIEWED
+comfortable shorts with an elastic waist,Shorts,,,PROPOSED_NOT_REVIEWED
+leather boots with a sturdy sole,Boots,,,PROPOSED_NOT_REVIEWED
+breathable sneakers for city walks,Sneakers,,,PROPOSED_NOT_REVIEWED
+ankle socks for daily wear,Socks,,,PROPOSED_NOT_REVIEWED
+long dress with a gathered waist,Dress,,,PROPOSED_NOT_REVIEWED
+something blue and comfortable for weekends,,Blue,,PROPOSED_NOT_REVIEWED
+a black outfit with a minimalist feel,,Black,,PROPOSED_NOT_REVIEWED
+something white and airy for hot weather,,White,,PROPOSED_NOT_REVIEWED
+a red piece for a festive evening,,Red,,PROPOSED_NOT_REVIEWED
+something pink with a romantic feel,,Pink,,PROPOSED_NOT_REVIEWED
+a green outfit for a relaxed afternoon,,Green,,PROPOSED_NOT_REVIEWED
+something polished for a job interview,,,,PROPOSED_NOT_REVIEWED
+comfortable clothing for a weekend at home,,,,PROPOSED_NOT_REVIEWED
+a vintage-inspired outfit for a concert,,,,PROPOSED_NOT_REVIEWED
+something breathable for humid weather,,,,PROPOSED_NOT_REVIEWED
+a cozy outfit for reading at home,,,,PROPOSED_NOT_REVIEWED
+something understated for a gallery visit,,,,PROPOSED_NOT_REVIEWED

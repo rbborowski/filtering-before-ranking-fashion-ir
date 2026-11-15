@@ -1,0 +1,7 @@
+embedder,contrast,gained,lost,unchanged,net_delta_pp,mcnemar_exact_p
+all-MiniLM-L6-v2,Dense baseline -> Filters + full query,4,5,191,-0.5,1.0
+all-MiniLM-L6-v2,Dense baseline -> Filters + residual,7,9,184,-1.0,0.8036
+all-MiniLM-L6-v2,Filters + full query -> Filters + residual,4,5,191,-0.5,1.0
+BAAI/bge-small-en-v1.5,Dense baseline -> Filters + full query,5,7,188,-1.0,0.7744
+BAAI/bge-small-en-v1.5,Dense baseline -> Filters + residual,4,11,185,-3.5,0.1185
+BAAI/bge-small-en-v1.5,Filters + full query -> Filters + residual,1,6,193,-2.5,0.125
